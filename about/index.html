@@ -1,13 +1,35 @@
-{% extends "base.html" %}
-{% set activePage = 'about' %}
-{% block title %} About the jerk behind all of this {% endblock %}
-
-{% block head %}
-	{{ super() }}
+<!DOCTYPE html>
+<html>
+	<head lang="en">
+		
+	
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="/assets/css/site.css" />
+		<link rel="stylesheet" href="/assets/css/nav.css" />
+		<link href='http://fonts.googleapis.com/css?family=Short+Stack' rel='stylesheet' type='text/css'>
+		<link rel="icon" type="image/png" href="/assets/images/favicon.png" />
+		<title>Epicaricacy.com -  About the jerk behind all of this </title>
+		
 	<link rel="stylesheet" href="/assets/css/about.css" />
-{% endblock %}
 
-{% block content %}
+	</head>
+	<body>
+		<div class="outer-container">
+			<div class="inner-container">
+				<nav class="sidebar">
+					<a href="/"><img class="home-logo" src="/assets/images/nav/home.png" /></a>
+
+	
+		<a href="/fiction" class="sidebar-item sidebar-link">Fiction</a>
+	
+	
+		<span class="sidebar-item sidebar-active-page">About</span>
+	
+	
+		<a href="/faq" class="sidebar-item sidebar-link">FAQ</a>
+	
+				</nav>
+				<main class="content">
 	<h1>About</h1>
 	<div class="greeting">
 		<img class="me" src="/assets/images/about/me.jpg">
@@ -30,4 +52,8 @@
 			<img src="/assets/images/about/gmail.png" />
 		</span>
 	</div>
-{% endblock %}
+</main>
+			</div>
+		</div>
+	</body>
+</html>

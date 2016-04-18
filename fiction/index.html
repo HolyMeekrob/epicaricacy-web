@@ -1,12 +1,35 @@
-{% extends "base.html" %}
-{% set activePage = 'fiction' %}
-{% block title %} Fiction {% endblock %}
-
-{% block head %}
-	{{ super() }}
+<!DOCTYPE html>
+<html>
+	<head lang="en">
+		
+	
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="/assets/css/site.css" />
+		<link rel="stylesheet" href="/assets/css/nav.css" />
+		<link href='http://fonts.googleapis.com/css?family=Short+Stack' rel='stylesheet' type='text/css'>
+		<link rel="icon" type="image/png" href="/assets/images/favicon.png" />
+		<title>Epicaricacy.com -  Fiction </title>
+		
 	<link rel="stylesheet" href="/assets/css/fiction.css" />
-{% endblock %}
-{% block content %}
+
+	</head>
+	<body>
+		<div class="outer-container">
+			<div class="inner-container">
+				<nav class="sidebar">
+					<a href="/"><img class="home-logo" src="/assets/images/nav/home.png" /></a>
+
+	
+		<span class="sidebar-item sidebar-active-page">Fiction</span>
+	
+	
+		<a href="/about" class="sidebar-item sidebar-link">About</a>
+	
+	
+		<a href="/faq" class="sidebar-item sidebar-link">FAQ</a>
+	
+				</nav>
+				<main class="content">
 	<h1>Fiction</h1>
 	<div>
 		<span>
@@ -74,4 +97,8 @@
 			</div>
 		</div>
 	</div>
-{% endblock %}
+</main>
+			</div>
+		</div>
+	</body>
+</html>

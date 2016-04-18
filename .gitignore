@@ -1,8 +1,0 @@
-# Build output
-dist/
-
-# NPM packages
-node_modules/
-
-# Visual Studio Code config
-jsconfig.json
