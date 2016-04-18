@@ -1,12 +1,13 @@
 import { default as metalsmith } from 'metalsmith';
 import { default as drafts } from 'metalsmith-drafts';
 import { default as layouts } from 'metalsmith-layouts';
-import { default as markdown } from 'metalsmith-markdown';
+import { default as markdown } from 'metalsmith-markdownit';
 import { default as serve } from 'metalsmith-serve';
 import { default as watch } from 'metalsmith-watch';
 import * as nunjucks from 'nunjucks';
 
 import layoutConfig from './config/layouts';
+import markdownConfig from './config/markdown';
 import serveConfig from './config/serve';
 import watchConfig from './config/watch';
 
@@ -31,11 +32,11 @@ const addServe = (ms) =>
 const getBase = () =>
 	metalsmith(__dirname)
 		.source('./src/content')
-		.destination('./dist')
 		.clean(false)
 		.use(drafts())
-		.use(markdown())
-		.use(layouts(layoutConfig));
+		.use(markdown(markdownConfig))
+		.use(layouts(layoutConfig))
+		.destination('./dist');
 
 const build = () =>	addBuild(getBase());
 

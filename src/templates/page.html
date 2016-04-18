@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block head %}
+	{{ super() }}
+	<link rel="stylesheet" href="/assets/css/page.css" />
+{% endblock %}
+
+{% block content %}
+	<div class="narrow-page">
+		{{ contents | safe }}
+	</div>
+{% endblock %}

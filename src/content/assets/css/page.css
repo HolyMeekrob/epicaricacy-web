@@ -1,0 +1,8 @@
+.narrow-page {
+	margin: 2em;
+	padding: 3em;
+	background: antiquewhite;
+	border-color: lightblue;
+	border-style: inset;
+	border-width: 0.3em;
+}
