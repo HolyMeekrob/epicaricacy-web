@@ -31,7 +31,7 @@ const addServe = (ms) =>
 const getBase = () =>
 	metalsmith(__dirname)
 		.source('./src/content')
-		.destination('./build')
+		.destination('./dist')
 		.use(drafts())
 		.use(markdown())
 		.use(layouts(layoutConfig));
