@@ -32,6 +32,7 @@ const getBase = () =>
 	metalsmith(__dirname)
 		.source('./src/content')
 		.destination('./dist')
+		.clean(false)
 		.use(drafts())
 		.use(markdown())
 		.use(layouts(layoutConfig));
