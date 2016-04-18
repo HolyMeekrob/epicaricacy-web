@@ -1,0 +1,35 @@
+.sidebar-category {
+	font-size: 16pt;
+	font-weight: bold;
+	color: brown;
+}
+
+.sidebar-list {
+	list-style-type: disc;
+	padding-left: 2em;
+}
+
+.sidebar-item {
+	display: block;
+	margin-bottom: 2em;
+}
+
+.sidebar-link:hover {
+	color: darkred;
+}
+
+.sidebar-link:active {
+	color: deeppink;
+}
+
+.sidebar-active-page {
+	display: block;
+}
+
+.home-logo {
+	max-height: 50px;
+	max-width: 50px;
+	margin-bottom: 2em;
+	margin-left: 25%;
+	margin-right: 25%;
+}

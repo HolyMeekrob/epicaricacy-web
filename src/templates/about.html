@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% set activePage = 'about' %}
+{% block title %} About the jerk behind all of this {% endblock %}
+
+{% block head %}
+	{{ super() }}
+	<link rel="stylesheet" href="/assets/css/about.css" />
+{% endblock %}
+
+{% block content %}
+	<h1>About</h1>
+	<div class="greeting">
+		<img class="me" src="/assets/images/about/me.jpg">
+		<h3>
+			Hello and welcome to Epicaricacy.com. My name is Andy and I hope you have
+			a terrible time here. Here's some contact info and my impression of the
+			Ultimate Warrior on a job interview.
+		</h3>
+		<span class="block">
+			<a href="https://www.twitter.com/HolyMeekrob"><img src="/assets/images/about/twitter.png" /></a>
+			<a href="https://www.facebook.com/HolyMeekrob"><img src="/assets/images/about/fb.png" /></a>
+			<a href="https://plus.google.com/+AndySteinberg9/"><img src="/assets/images/about/gplus.png" /></a>
+			<a href="https://www.linkedin.com/in/andysteinberg9"><img src="/assets/images/about/linkedin.png" /></a>
+			<a href="https://github.com/HolyMeekrob/"><img src="/assets/images/about/github.png" /></a>
+			<a href="https://holymeekrob.yelp.com"><img src="/assets/images/about/yelp.png" /></a>
+			<a href="https://www.pinterest.com/holymeekrob"><img src="/assets/images/about/pinterest.png" /></a>
+			<a href="https://steamcommunity.com/id/holymeekrob/"><img src="/assets/images/about/steam.png" /></a>
+		</span>
+		<span>
+			<img src="/assets/images/about/gmail.png" />
+		</span>
+	</div>
+{% endblock %}

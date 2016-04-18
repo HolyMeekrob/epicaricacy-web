@@ -1,0 +1,23 @@
+.list {
+	display: flex;
+	flex-direction: column;
+	margin-right: 20%;
+}
+
+.line-item {
+	display: flex;
+	flex-direction: row;
+	margin-top: 2em;
+
+	padding: 0.5em
+}
+
+.title {
+	flex-grow: 0;
+	flex-basis: 20%;
+	margin-right: 2em;
+}
+
+.description {
+	flex-grow: 1
+}

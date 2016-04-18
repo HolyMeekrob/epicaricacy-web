@@ -1,0 +1,10 @@
+.greeting {
+	display: inline-block;
+	width: 60%;
+}
+
+.me {
+	float: right;
+	height: 300px;
+	margin: 30px;
+}

@@ -1,0 +1,16 @@
+{% set pages = [
+	{ 'href': '/fiction', 'id': 'fiction', 'text': 'Fiction' },
+	{ 'href': '/about', 'id': 'about', 'text': 'About' },
+	{ 'href': '/faq', 'id': 'faq', 'text': 'FAQ' }
+] -%}
+
+{% set activePage = activePage|default('home') -%}
+
+<a href="/"><img class="home-logo" src="/assets/images/nav/home.png" /></a>
+{% for page in pages %}
+	{% if activePage == page.id %}
+		<span class="sidebar-item sidebar-active-page">{{ page.text }}</span>
+	{% else %}
+		<a href="{{ page.href }}" class="sidebar-item sidebar-link">{{ page.text }}</a>
+	{% endif -%}
+{% endfor -%}
