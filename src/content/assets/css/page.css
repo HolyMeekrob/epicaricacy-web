@@ -6,9 +6,7 @@ h1 {
 	margin: 2em;
 	padding: 3em;
 	background: antiquewhite;
-	border-color: lightblue;
-	border-style: inset;
-	border-width: 0.3em;
+	box-shadow: 0.1em 0.1em 0.1em 0.1em gray;
 }
 
 .page-color {

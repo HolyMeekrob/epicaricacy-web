@@ -38,12 +38,6 @@ h1 {
 	flex-direction: row;
 }
 
-.sidebar {
-	background-color: lightgray;
-	padding: 2em;
-	flex: 0, 0, 12em;
-}
-
 .content {
 	width: 100%;
 	padding: 2em;
