@@ -2,14 +2,16 @@ import metalsmith from 'metalsmith';
 import drafts from 'metalsmith-drafts';
 import layouts from 'metalsmith-layouts';
 import markdown from 'metalsmith-markdownit';
+import permalinks from 'metalsmith-permalinks';
 import serve from 'metalsmith-serve';
 import watch	 from 'metalsmith-watch';
-import 		nunjucks from 'nunjucks';
+import nunjucks from 'nunjucks';
 
 import layoutConfig from './config/layouts';
 import markdownConfig from './config/markdown';
 import serveConfig from './config/serve';
 import watchConfig from './config/watch';
+import permalinkConfig from './config/permalinks';
 
 nunjucks.configure('src/templates', { watch: false, nocache: true });
 
@@ -36,6 +38,7 @@ const getBase = () =>
 		.use(drafts())
 		.use(markdown(markdownConfig))
 		.use(layouts(layoutConfig))
+		.use(permalinks(permalinkConfig))
 		.destination('./dist');
 
 const build = () =>	addBuild(getBase());
