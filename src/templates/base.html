@@ -7,7 +7,7 @@
 		<link rel="stylesheet" href="/assets/css/nav.css" />
 		<link href='http://fonts.googleapis.com/css?family=Short+Stack' rel='stylesheet' type='text/css'>
 		<link rel="icon" type="image/png" href="/assets/images/favicon.png" />
-		<title>Epicaricacy.com - {% block title %}Finding pleasure in the misfortune of others since 2015{% endblock %}</title>
+		<title>Epicaricacy.com - {{title}}</title>
 		{% endblock %}
 	</head>
 	<body>
@@ -16,7 +16,10 @@
 				<nav class="sidebar">
 					{% include "partials/nav.html" %}
 				</nav>
-				<main class="content">{% block content %}{% endblock %}</main>
+				<main class="content">
+					{% if not hideHeader %}<h1>{{ header | default(title) }}</h1>{% endif %}
+					{% block content %}{% endblock %}
+				</main>
 			</div>
 		</div>
 	</body>
