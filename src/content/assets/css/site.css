@@ -1,6 +1,7 @@
 body {
 	margin: 0;
 	font-family: "Comic Sans MS", "Comic Sans", "Short Stack", sans-serif;
+	font-size: 14pt;
 	background-color: lightblue;
 }
 
@@ -20,7 +21,7 @@ h1 {
 	display: none;
 }
 
-.error {
+.error, .red {
 	color: red;
 }
 

@@ -4,14 +4,13 @@ layout: page.html
 ---
 # 8
 
-## By: Andy Steinberg
-
 *There’s someone else.*
 
 A neon sign hovers in front of me. Its bright green baseball diamond shines
 an artificial contrast to the brick building it adorns, to the unlit alley it guards
 against, to the starless sky it derives its purpose from. More neon sits
-beneath the diamond -- dull red text that reads, CENTER FIELD. I check the
+beneath the diamond -- dull red text that reads,
+<span class="red">CENTER FIELD</span>. I check the
 screen of my phone. It’s still aglow from the last time.
 
 *Need 2 see u. Center field @ 9:30.*
@@ -26,7 +25,7 @@ back. Fate inevitably wins. There’s a clock over her head and I’m ten
 minutes late. “Hey.”
 
 Her stare remains leveled, even after I sit. It’s directed at my neck and
-suddenly I’m conscious of the weird curl of my collar. Thanks for coming.
+suddenly I’m conscious of the weird curl of my collar. *Thanks for coming.*
 Now she looks up. Now she smiles. Her voice is incapable of wavering.
 
 All that time in the approach, and I haven’t thought of a thing to say. This
@@ -81,7 +80,7 @@ We’ve been talking for some time. She wouldn’t keep me on edge this long.
 I’m feeling confidence now. “Hey,” I say. “I’ve been thinking about us
 lately.”
 
-*She sits up straighter. Me too.*
+She sits up straighter. *Me too.*
 
 “You and I...”
 
@@ -206,7 +205,7 @@ lately.”
 *There’s someone else.*
 
 Skip to the part where I’m outside heaving and my phone is nagging me.
-This time it reads, u cant change it . I throw the phone against a wall and
+This time it reads, *u cant change it*. I throw the phone against a wall and
 watch it burst into nothing. “How’s that for change?” I yell into the
 emptiness.
 
@@ -255,10 +254,11 @@ me out.
 
 A breeze stirs against my neck as the door swings shut. Towering in front of
 me stands a decaying clone of the bar. One of the neon letters has burned
-out. CENTER F ELD. The stars have come out by the hundreds. I squint and
-lines form between them. A scorpion lies in wait for whatever approaches
-across the cosmos. Behind me the original bar has vanished. A raindrop wets
-my hair, and then another. Terrified, I sprint down the empty road.
+out. <span class="red">CENTER F<span class="page-color">I</span>ELD</span>.
+The stars have come out by the hundreds. I squint and lines form between them.
+A scorpion lies in wait for whatever approaches across the cosmos. Behind me
+the original bar has vanished. A raindrop wets my hair, and then another.
+Terrified, I sprint down the empty road.
 
 There’s no wind and no light, but I can sense my feet going faster, like I’m
 falling forwards. I run with no perception of time or distance. Ahead of me I
@@ -368,14 +368,14 @@ direction, we can become infinity.”
 Her cheeks are wet. *There’s...* She clears her throat. *There’s no...*
 
 >Why did I need to open my stupid mouth?
+<br />
+Why did I need to say anything?
 
->Why did I need to say anything?
-
->These aren’t my words.
+These aren’t my words.
 
 >Nothing good was going to come out.
-
->Nothing was going to change.
+<br />
+Nothing was going to change.
 
 The image of her dissolves as I wake to the familiarity of my bedroom and a
 song on the radio, its lyrics replacing my own thoughts. The dim screen of
