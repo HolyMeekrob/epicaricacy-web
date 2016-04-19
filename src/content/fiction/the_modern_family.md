@@ -2,8 +2,6 @@
 title: The Modern Family
 layout: page.html
 ---
-# The Modern Family
-
 Gary hates his wife. He doesn't just hate her a little bit, either. No, he
 hates her so much that he has a drawer full of elaborate murder schemes
 locked inside a file cabinet in the office where he works. The drawer is

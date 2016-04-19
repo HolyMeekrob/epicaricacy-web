@@ -2,8 +2,6 @@
 title: Meeting the Neighbors
 layout: page.html
 ---
-# Meeting the Neighbors
-
 "Hi there. I just moved in next door, and I want to fuck the shit out of
 your son or daughter."
 

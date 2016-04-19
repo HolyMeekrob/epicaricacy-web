@@ -2,8 +2,6 @@
 title: Harry Potter and The Year Time Forgot
 layout: page.html
 ---
-# Harry Potter and The Year Time Forgot
-
 ## Chapter 1:  Hedwig Dies
 
 "Get the fuck out of my face and go to your cupboard!" Mr. Dursley bellowed at Harry.

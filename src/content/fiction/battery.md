@@ -2,8 +2,6 @@
 title: Battery
 layout: page.html
 ---
-# Battery
-
 "It figures," I mutter as the ball falls onto the shallow grass for a weak single.
 The words are rendered mute amidst the roaring chaos of fifty thousand screaming
 savages, all of them reveling in my failure. It is a turbulent sea of white and blue
