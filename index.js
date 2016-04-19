@@ -1,10 +1,10 @@
-import { default as metalsmith } from 'metalsmith';
-import { default as drafts } from 'metalsmith-drafts';
-import { default as layouts } from 'metalsmith-layouts';
-import { default as markdown } from 'metalsmith-markdownit';
-import { default as serve } from 'metalsmith-serve';
-import { default as watch } from 'metalsmith-watch';
-import * as nunjucks from 'nunjucks';
+import metalsmith from 'metalsmith';
+import drafts from 'metalsmith-drafts';
+import layouts from 'metalsmith-layouts';
+import markdown from 'metalsmith-markdownit';
+import serve from 'metalsmith-serve';
+import watch	 from 'metalsmith-watch';
+import 		nunjucks from 'nunjucks';
 
 import layoutConfig from './config/layouts';
 import markdownConfig from './config/markdown';
