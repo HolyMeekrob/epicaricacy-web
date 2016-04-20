@@ -5,6 +5,7 @@
 	"main": "index.js",
 	"scripts": {
 		"build": "babel-node index build",
+		"clean": "babel-node index clean",
 		"help": "babel-node index help",
 		"start": "babel-node index buildAndServe",
 		"test": "echo \"Error: no test specified\" && exit 1"
