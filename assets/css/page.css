@@ -1,0 +1,25 @@
+h1 {
+	text-align: center;
+	margin-bottom: 2em;
+}
+
+.narrow-page {
+	margin: 2em;
+	padding: 3em;
+	background: antiquewhite;
+	box-shadow: 0.1em 0.1em 0.1em 0.1em gray;
+}
+
+.page-color {
+	color: antiquewhite
+}
+
+blockquote {
+	margin: 0 0 0 1em;
+	font-style: italic;
+}
+
+hr {
+	margin-top: 3em;
+	margin-bottom: 3em;
+}

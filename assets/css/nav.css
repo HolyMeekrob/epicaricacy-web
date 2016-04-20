@@ -1,3 +1,10 @@
+.sidebar {
+	background-color: lightgray;
+	padding: 2em;
+	flex: 0, 0, 12em;
+	border-right: 0.1em solid black;
+}
+
 .sidebar-category {
 	font-size: 16pt;
 	font-weight: bold;
