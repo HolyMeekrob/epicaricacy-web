@@ -10,11 +10,12 @@ import watch	 from 'metalsmith-watch';
 import nunjucks from 'nunjucks';
 
 import layoutConfig from './config/layouts';
-import lineEndingTransformer from './config/lineEndings';
 import markdownConfig from './config/markdown';
 import serveConfig from './config/serve';
 import watchConfig from './config/watch';
 import permalinkConfig from './config/permalinks';
+
+import { includeFile, lineEndingsTransformer } from './config/lineEndings';
 
 nunjucks.configure('src/templates', { watch: false, nocache: true });
 
@@ -42,8 +43,8 @@ const getBase = () =>
 		.use(markdown(markdownConfig))
 		.use(layouts(layoutConfig))
 		.use(permalinks(permalinkConfig))
-		.use(branch(['*.js, *.html, *.css, *.md'])
-			.use(transformer(lineEndingTransformer)))
+		.use(branch(includeFile)
+			.use(transformer(lineEndingsTransformer)))
 		.destination('./dist');
 
 const build = () =>	addBuild(getBase());
