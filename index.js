@@ -17,7 +17,7 @@ import serveConfig from './config/serve';
 import watchConfig from './config/watch';
 import permalinkConfig from './config/permalinks';
 
-import { includeFile, lineEndingsTransformer } from './config/lineEndings';
+import { includeFile, options as transformerConfig } from './config/lineEndings';
 
 import { cleanDir } from './clean';
 
@@ -48,7 +48,7 @@ const getBase = () =>
 		.use(permalinks(permalinkConfig))
 		.use(layouts(layoutConfig))
 		.use(branch(includeFile)
-			.use(transformer(lineEndingsTransformer)))
+			.use(transformer(transformerConfig)))
 		.destination('./dist');
 
 const build = () =>	addBuild(getBase());

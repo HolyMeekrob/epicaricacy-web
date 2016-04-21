@@ -9,8 +9,11 @@ Thirteen years later, I feel like I am reliving that moment. Only instead we are
 
 In this review, I will attempt to demonstrate that not only is Star Wars Episode VII: The Force Awakens a bad movie, it is in fact the worst movie in the series. I know this statement sets off a few alarms in many reader's heads. First, it looks like hyperbole. Second, it seems reactionary given the recency of its release. Third, considering the general praise that it has thus far received, it sounds contradictory for the sake of attention. I affirm that, despite appearances, it is none of those things, and that I firmly believe in my thesis.
 
-Before continuing, understand that the review necessarily contains massive spoilers. DO NOT CONTINUE READING IF YOU HAVE NOT SEEN THE FILM AND DO NOT WANT TO BE SPOILED.
-Plot
+Before continuing, understand that the review necessarily contains massive spoilers.
+
+**DO NOT CONTINUE READING IF YOU HAVE NOT SEEN THE FILM AND DO NOT WANT TO BE SPOILED.**
+
+## Plot
 
 To start with, I want to review the plot from a high level before getting into some of the details. The plot of this movie seems to be pretty simple, as things generally are in the Star Wars universe. Here was have a smaller subplot specific to Episode VII within a larger plot of what I assume will be this trilogy.
 
@@ -64,32 +67,41 @@ I don't have a lot to say about nostalgia except that every time they try it, it
 It's pretty obvious that the movie was meant to mirror Episode IV. People are forgiving it because it was trying to introduce Star Wars while still being Star Wars. But the plot of Episode IV is not what made it Star Wars. And let's not forget that Episode I had to accomplish the same thing. And while maybe that wasn't a good movie, at least it tried to do something different. Episode VII vas lazy, and tried to leverage the goodness of its predecessors as a way of being warmly received. It's a cheap tactic that seems to have worked on most people, but I think it's heinous.
 
 Additionally, you get this weird sentimental shit like when Han and Leia reunite. There's a romance movie moment where she puts her head in his chest and closes her eyes and smiles or something dumb, and the camera holds it for like five seconds. This is the woman we are supposed to believe is the commanding general of the entire Resistance military. The same Leia that was fierce and independent in the original movies and her relationship with Han wasn't lovey dovey at all like we're seeing. It feels fake and inconsistent with what we know about those characters, and their relationship is less likeable or interesting this way.
-Characters
-Leia
+
+## Characters
+### Leia
 
 Speaking of Leia, what the hell happened to her? She's the general of the army (outranking Ackbar somehow) and yet she doesn't seem to know what she's doing or even care that much. Maybe that's why the Resistance is fiddling its thumbs. She needs to ask people like Stormtrooper Jar Jar for ideas. She's also too weak to be mad at Han for bailing on her, and she's too weak to go after her estranged serial killer son herself, so she asks Han to do it. Leia went from strong female heroine to feckless waste of screen space. It reminds me of what Indiana Jones IV did to Marion's character, only this time you can't blame George Lucas.
-Han
+
+### Han
 
 Han mostly gets out of this movie unscathed, probably thanks to Harrison Ford's talent and charisma. His death scene, which I'll get to, was awfully done, and the aforementioned scene with Leia was bad. The only other part that I thought sucked was when the two different criminal organizations worked together (which doesn't entirely make sense to me) to approach him at the same time demanding money, so we could have a forced “Same ol' Han!” moment. In that scene, Han Solo seemed more like a caricature of himself than anything else.
-Luke
+
+### Luke
 
 Here's what we know about Luke. He tried to train a bunch of Jedi, including Kylo Ren. Kylo Ren did something (killed? recruited?) all of them and then escaped. Luke, having let this happen somehow, got super depressed and became a hermit. This is the same Luke who abandoned all reason multiple times in order to help his friends and the Rebellion in the original trilogy. Now he runs away and stares at oceans off of cliff sides all day long. Unless someone shows up and then he stares at their hands forever. And we're supposed to feel relieved when they find him.
-R2-D2
+
+### R2-D2
 
 He's in standby mode because he's depressed because one friend of his (of many) is in hiding. Does that seem at all like R2 to anyone? And then he comes out of it because they have the star map and he can go find his friend, except that even when they get the star map he still stays depressed for a while. Even though he has the star map that can lead everyone to his friend. He doesn't go off standby mode until later for absolutely no reason that can be explained. Why does he need to come out of standby? Because he has a star map that no other computer in the entire Resistance, or any ally of the Resistance, has. There's no explanation for how or why that happened.
-BB-8
+
+### BB-8
 
 Let's call him what he is. Star Wars Wall-E, a character made to sell merchandise to people who already have R2-D2 shit, and move on.
-Maz
+
+### Maz
 
 Before entering Maz's place, Han tells his traveling party not to stare at anything. Because why? Because that makes the next scene more ominous. Except that Maz's place has no danger about it, Maz is a completely nice, person. We go in expecting some kind of crafty character with questionable alliances, but instead we get someone who is wholeheartedly good and helpful. The denizens don't seem dangerous either. They even seem happy to take Stormtrooper Jar Jars wherever he wants to go with no questions asked. Maz also has Luke's lightsaber but they can't explain why that makes sense because it's a long story. The one time the writers indicate that they aren't actually explaining something that doesn't make sense, and they excuse it away. Is their laziness and ineptitude not transparent to everyone? And oh yeah the lightsaber has magic memory powers now.
-Poe
+
+### Poe
 
 When writing the movie, someone probably said, “Hey let's combine Han Solo's 'tude with Wedge's piloting” and then JJ Abrams, if it wasn't his idea originally, thought that was just wonderful. They gloss over how he survived the crash, didn't run into Stormtrooper Jar Jar, didn't seem to try to look for the droid that was the entire reason he was on the planet in the first place, and escaped without The First Order finding him. They also decided to make him the best fighter pilot in the history of the galaxy. Well, at least until Rey gets two minutes of flying time under her belt. There's a scene where he gets like six confirmed kills in three seconds. Why does The Resistance even have other pilots? Just send him in to take out the entire First Order. You can give him any gunner, because he apparently can train them to fire the guns on a ship he has never flown or gunned from before, while flying the ship he has never flown before better than anyone has ever flown it. At least if that gunner has the Luck of Jar Jar trait, anyway. Because in this movie, if you have a name, and you're not Stormtrooper Jar Jar, then you're the best person in the galaxy at whatever you specialize in. Or you're Rey and you're the best person in the galaxy at absolutely everything, but more on that in a bit. Also, one thing Poe and Stormtrooper Jar Jar have in common is they like to say things like, “Wow that person is a great ______” whenever someone with a name does something ridiculously well, just so that the audience can keep up and understand that the character with a name is really good at the thing that they do!
-Rey
+
+### Rey
 
 One of the stupid things Episode VII does is dumb down the force. Previously, you couldn't just be strong in the force to be able to wield it purposefully. The ways in which Episode IV Luke or Episode I Anakin were able to use the force was passively. It helped them with things like intuition or reaction. Actual mastery over techniques took a willing teacher and extensive training. But this movie couldn't wait for any of that, so it created Rey -- the force user who is good at everything she attempts, but who also learns specific force powers in a matter of minutes. Force powers that, historically, only a Jedi Master could summon (such as Force Persuade), and she can learn them before she even fully recognizes that she has the ability to wield the force at all (as seen when the realization comes to her during a lightsaber fight, during which, once she realizes it, is able to go into a meditative state whilst pushing against Kylo Ren's lightsaber, and then come out of the state more powerful than before, which is not something that any other Jedi has done ever). Here is a list of all the things that Rey is immediately a galaxy-class expert at the first time she attempts them: piloting the Millennium Falcon, repairing or altering complex electrical systems, being a deadeye with a blaster mid-combat, lightsaber dueling, force persuasion, force mind reading, force mind reading resistance. She's so good, that when the gun on the Falcon breaks such that it's stuck in one firing position that she can't see, in a direction she can't see, she's able to evade enemy fire, drastically change speeds, flip the Falcon around aim the cannon exactly at a moving, oncoming enemy TIE Fighter such that all Stormtrooper Jar Jar has to do is pull the trigger. This is the most over-the-top maneuver in the entire series by a substantial margin and it's performed by someone with no experience doing it. It makes Han successfully navigating an asteroid field look simple. If C-3PO were there, calculating the odds would have caused an overflow error.
-Kylo Ren
+
+### Kylo Ren
 
 I could probably write an entire review about how horrible Kylo Ren is, but here is the thing that I think sums it up the best. What made Darth Vader awesome was two things. One is that he starts off as the most menacing villain of all time. Anyone who challenges this fact learns quickly and severely how bad an idea that is. And yet the original trilogy is about Vader's redemption. It is his inner and outer struggle to overcome his previous mistakes, to get out of the hole he has dug himself, and to do what's right and good in the end. You would never guess that by the end of Episode VI, you'd be rooting for the fellow.
 
@@ -102,13 +114,16 @@ What makes an interesting villain is when they believe they are doing good. Mayb
 He's just a rebellious kid. But what is he rebelling against. His parents weren't strict. There's no mention of regret between Han and Leia for anything wrong they did in bringing him up. They let him train with his savior of the galaxy, all-around good guy who saved Vader's soul uncle Luke. His father is literally the coolest dude in the entire galaxy. And he's emo about all of that?
 
 And let's talk about Han's death, which is easily the worst part of the movie. Han shows up, is willing to ignore / forgive all the evil things that his son has done. Han says he can still come home, that he's still loved, that his parents accept him for who he is. It's absolutely everything you'd want in a parent. And then Kylo, in a scene that's as telegraphed as they come, says he needs Han's help to do what he needs to do, which we all know is kill Han. And Han says that he'll do anything to help his son. Which apparently meant, “Put your hand on my lightsaber so that I can kill you.” What? How does that help Kylo overcome his conscience at all? Han didn't egg him on. He didn't offer him anything but support. If anything, that action would have the exact opposite effect of what Kylo wanted. But the lazy writers thought that would give Kylo Ren depth somehow. See, look? He's complex because he just said he was. No, sorry writers. It doesn't work that way. He's completely empty. He's a shell of a character. Kylo Ren is the worst character in the history of Star Wars, and that's including Jar Jar and also…
-Stormtrooper Jar Jar
+
+### Stormtrooper Jar Jar
 
 Let's compare Jar Jar and Stormtrooper Jar Jar. Both of them are alienated from their home. Both of them are clumsy and constantly falling over or getting captured. Both of them are bad at pretty much everything they attempt, but then stumble/luck into succeeding. Both of them lie about who they are because they are nobodies but want to be taken seriously. Both of them feel a half step out of sync with everyone else, like they are in a movie and say things that make no sense within their own world, but only make sense to us, the viewers who inhabit a totally different world. Thing that seem to only be there to appeal to children. Both of them are essentially tagalongs to the people who actually matter. Both of them exist to offer commentary on what's happening in the world. How many times does Stormtrooper Jar Jar point out a character who just did something really well? Who else but Jar Jar would utter a line like, “Droid, please?” Who else but Jar Jar would get captured by a monster that, up until the point where he was captured, mutilated everyone they came upon immediately, but in this case, for some unknown reason, the monster decided to instead drag him off to somewhere giving the heroes a chance to save him? Who else would make humorous remarks while getting dragged away to presumably their grotesque death at the hands of said monster? Who else would luck into getting saved from the monster? Who else would go into the enemy base without a plan and then somehow succeed despite that? Face it, Stormtrooper Jar Jar is Jar Jar. The only difference is that he doesn't talk in a ridiculous voice or make cartoonish facial expressions. If you think Episode I is bad because it has Jar Jar as a major character, well Episode VII has Stormtrooper Jar Jar.
-The Good Stuff
+
+## The Good Stuff
 
 Not everything was bad. The dogfighting was some of the best in the series. Chewie is cool as always, and so is his bowcaster, which got way more use than it ever has previously and I was happy to see that. Han Solo was good in most of his scenes. And the effects were cool and didn't get in the way, which can't be said about the prequels. That's about it.
-Conclusion
+
+## Conclusion
 
 I think at this point I've given enough evidence to show that Episode VII is not a good movie. Yet I go beyond that and consider it to be the worst Star Wars film, and here's why. It doesn't offer anything new and it doesn't do anything important well. The characters are flatter than in any other movie. They are archetypes of archetypes, with no flaws whatsoever. The prequels tried new things. They had new stories and new characters. Some of those characters were really good, such as Qui-Gon.
 

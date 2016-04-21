@@ -1,34 +1,34 @@
 {
-	"name": "epicaricacy-web",
-	"version": "1.0.0",
-	"description": "Epicaricacy.com",
-	"main": "index.js",
-	"scripts": {
-		"build": "babel-node index build",
-		"clean": "babel-node index clean",
-		"help": "babel-node index help",
-		"start": "babel-node index buildAndServe",
-		"test": "echo \"Error: no test specified\" && exit 1"
-	},
-	"keywords": [
-		"epicaricacy"
-	],
-	"author": "Andy Steinberg",
-	"license": "UNLICENSED",
-	"devDependencies": {
-		"babel-cli": "^6.7.5",
-		"babel-plugin-transform-es2015-modules-commonjs": "^6.7.4",
-		"eslint": "^2.8.0",
-		"metalsmith": "^2.1.0",
-		"metalsmith-branch": "0.0.4",
-		"metalsmith-collections": "^0.7.0",
-		"metalsmith-drafts": "0.0.1",
-		"metalsmith-layouts": "^1.6.4",
-		"metalsmith-markdownit": "^0.3.0",
-		"metalsmith-permalinks": "^0.5.0",
-		"metalsmith-serve": "0.0.7",
-		"metalsmith-transformer": "^1.0.1",
-		"metalsmith-watch": "^1.0.1",
-		"nunjucks": "^2.4.2"
-	}
+  "name": "epicaricacy-web",
+  "version": "1.0.0",
+  "description": "Epicaricacy.com",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel-node index build",
+    "clean": "babel-node index clean",
+    "help": "babel-node index help",
+    "start": "babel-node index buildAndServe",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "epicaricacy"
+  ],
+  "author": "Andy Steinberg",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "babel-cli": "^6.7.5",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.7.4",
+    "eslint": "^2.8.0",
+    "metalsmith": "^2.1.0",
+    "metalsmith-branch": "0.0.4",
+    "metalsmith-collections": "^0.7.0",
+    "metalsmith-drafts": "0.0.1",
+    "metalsmith-layouts": "^1.6.4",
+    "metalsmith-markdownit": "^0.3.0",
+    "metalsmith-permalinks": "^0.5.0",
+    "metalsmith-serve": "0.0.7",
+    "metalsmith-transformer": "^2.0.0",
+    "metalsmith-watch": "^1.0.1",
+    "nunjucks": "^2.4.2"
+  }
 }
