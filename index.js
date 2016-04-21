@@ -2,6 +2,7 @@ import metalsmith from 'metalsmith';
 import branch from 'metalsmith-branch';
 import collections from 'metalsmith-collections';
 import drafts from 'metalsmith-drafts';
+import excerpts from 'metalsmith-better-excerpts';
 import layouts from 'metalsmith-layouts';
 import markdown from 'metalsmith-markdownit';
 import permalinks from 'metalsmith-permalinks';
@@ -11,6 +12,7 @@ import watch	 from 'metalsmith-watch';
 import nunjucks from 'nunjucks';
 
 import collectionConfig from './config/collections';
+import excerptConfig from './config/excerpts';
 import layoutConfig from './config/layouts';
 import markdownConfig from './config/markdown';
 import serveConfig from './config/serve';
@@ -35,8 +37,8 @@ const addBuild = (ms) =>
 
 const addServe = (ms) =>
 	ms
-		.use(serve(serveConfig))
-		.use(watch(watchConfig));
+	.use(serve(serveConfig))
+	.use(watch(watchConfig));
 
 const getBase = () =>
 	metalsmith(__dirname)
@@ -46,6 +48,7 @@ const getBase = () =>
 		.use(markdown(markdownConfig))
 		.use(collections(collectionConfig))
 		.use(permalinks(permalinkConfig))
+		.use(excerpts(excerptConfig))
 		.use(layouts(layoutConfig))
 		.use(branch(includeFile)
 			.use(transformer(transformerConfig)))
