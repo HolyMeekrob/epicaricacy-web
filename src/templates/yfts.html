@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% set hideHeader = true %}
+{% block head %}
+	{{ super() }}
+{% endblock %}
+
+{% block content %}
+	<div>
+		{% if next %}<a href="/{{next.path}}">Next</a>{% endif %}
+		{% if previous %}<a href="/{{previous.path}}">Previous</a>{% endif %}
+		<span>Date: {{date}}</span>
+	</div>
+	<div class="narrow-page">
+		<h1>YOUR FAVORITE THING SUCKS - {{title}}</h1>
+		{{ contents | safe }}
+	</div>
+{% endblock %}

@@ -1,5 +1,6 @@
 import metalsmith from 'metalsmith';
 import branch from 'metalsmith-branch';
+import collections from 'metalsmith-collections';
 import drafts from 'metalsmith-drafts';
 import layouts from 'metalsmith-layouts';
 import markdown from 'metalsmith-markdownit';
@@ -9,6 +10,7 @@ import transformer from 'metalsmith-transformer';
 import watch	 from 'metalsmith-watch';
 import nunjucks from 'nunjucks';
 
+import collectionConfig from './config/collections';
 import layoutConfig from './config/layouts';
 import markdownConfig from './config/markdown';
 import serveConfig from './config/serve';
@@ -42,8 +44,9 @@ const getBase = () =>
 		.clean(false)
 		.use(drafts())
 		.use(markdown(markdownConfig))
-		.use(layouts(layoutConfig))
+		.use(collections(collectionConfig))
 		.use(permalinks(permalinkConfig))
+		.use(layouts(layoutConfig))
 		.use(branch(includeFile)
 			.use(transformer(lineEndingsTransformer)))
 		.destination('./dist');

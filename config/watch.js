@@ -1,6 +1,7 @@
 export default {
 	paths: {
 		'${source}/**/*': true,
-		'src/templates/**/*.html': '**/*'
+		'src/templates/**/*.html': '**/*',
+		'config/**/*.js': '**/*'
 	}
 };

@@ -1,6 +1,6 @@
 export default {
 	linksets: [{
-		match: { collection: 'fiction' },
-		pattern: 'fiction/:title'
+		match: { collection: 'yfts' },
+		pattern: 'yfts/:date/:title'
 	}]
 };
