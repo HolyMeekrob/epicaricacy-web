@@ -5,6 +5,7 @@ import drafts from 'metalsmith-drafts';
 import excerpts from 'metalsmith-better-excerpts';
 import layouts from 'metalsmith-layouts';
 import markdown from 'metalsmith-markdownit';
+import pagination from 'metalsmith-pagination';
 import permalinks from 'metalsmith-permalinks';
 import serve from 'metalsmith-serve';
 import transformer from 'metalsmith-transformer';
@@ -15,6 +16,7 @@ import excerptConfig from './config/excerpts';
 import layoutConfig from './config/layouts';
 import markdownConfig from './config/markdown';
 import serveConfig from './config/serve';
+import paginationConfig from './config/pagination';
 import permalinkConfig from './config/permalinks';
 
 import { includeFile, options as transformerConfig } from './config/lineEndings';
@@ -44,6 +46,7 @@ const getBase = () =>
 		.use(collections(collectionConfig))
 		.use(permalinks(permalinkConfig))
 		.use(excerpts(excerptConfig))
+		.use(pagination(paginationConfig))
 		.use(layouts(layoutConfig))
 		.use(branch(includeFile)
 			.use(transformer(transformerConfig)))
