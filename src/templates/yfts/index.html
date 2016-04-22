@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% set activePage = "yfts" %}
+{% block head %}
+	{{ super() }}
+{% endblock %}
+
+{% block content %}
+	<div class="narrow-page">
+		{% for post in yfts | reverse %}
+			{% if loop.index < 5 %}
+			<div><h2><a href="/{{ post.path }}">{{ post.title }}</a></h2></div>
+			<div>{{ post.excerpt | safe }}</div>
+			<div>
+				<a href="/{{ post.path }}">Keep reading about {{ post.moreText | default('it') }}...</a>
+			</div>
+			{% endif %}
+		{% endfor %}
+		{{ contents | safe }}
+	</div>
+{% endblock %}

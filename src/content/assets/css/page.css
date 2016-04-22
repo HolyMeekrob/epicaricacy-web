@@ -1,13 +1,13 @@
 h1 {
 	text-align: center;
-	margin-bottom: 2em;
+	margin-bottom: 2rem;
 }
 
 .narrow-page {
-	margin: 2em;
-	padding: 3em;
+	margin: 2rem;
+	padding: 3rem;
 	background: antiquewhite;
-	box-shadow: 0.1em 0.1em 0.1em 0.1em gray;
+	box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem gray;
 }
 
 .page-color {
@@ -15,11 +15,11 @@ h1 {
 }
 
 blockquote {
-	margin: 0 0 0 1em;
+	margin: 0 0 0 1rem;
 	font-style: italic;
 }
 
 hr {
-	margin-top: 3em;
-	margin-bottom: 3em;
+	margin-top: 3rem;
+	margin-bottom: 3rem;
 }

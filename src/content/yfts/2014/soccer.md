@@ -1,6 +1,6 @@
 ---
 title: Soccer
-layout: yfts.html
+layout: yfts/post.html
 date: 2014-06-15
 ---
 

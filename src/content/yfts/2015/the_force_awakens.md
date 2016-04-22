@@ -1,11 +1,14 @@
 ---
 title: The Force Awakens
-layout: yfts.html
+layout: yfts/post.html
+moreText: how J.J. Abrams ruined Star Wars
 date: 2015-12-19
 ---
 After viewing Episode II upon its release, my viewing group and I emerged from the theater, stood beneath the box office signs at the front of the theater, and performed a ritual that I'm sure many of you share, whereupon we clear up confusions, share opinions, and attempt to classify what we had just seen. To this day, I clearly remember a good friend of mine saying, “People will argue because of nostalgia, but that was the best Star Wars yet.” The rest of us stood there flabbergasted because Episode II was quite obviously not the best Star Wars yet, nor even very good to begin with.
 
 Thirteen years later, I feel like I am reliving that moment. Only instead we are talking about Episode VII, and rather than it being my one friend, it is nearly everyone who has expressed an opinion to me or written a review that I've read on the internet. Perhaps people aren't saying that it was the best Star Wars, but they're positively comparing it to the original trilogy. And once again I am flabbergasted, because Episode VII was terrible.
+
+<!-- more -->
 
 In this review, I will attempt to demonstrate that not only is Star Wars Episode VII: The Force Awakens a bad movie, it is in fact the worst movie in the series. I know this statement sets off a few alarms in many reader's heads. First, it looks like hyperbole. Second, it seems reactionary given the recency of its release. Third, considering the general praise that it has thus far received, it sounds contradictory for the sake of attention. I affirm that, despite appearances, it is none of those things, and that I firmly believe in my thesis.
 

@@ -8,7 +8,6 @@ import markdown from 'metalsmith-markdownit';
 import permalinks from 'metalsmith-permalinks';
 import serve from 'metalsmith-serve';
 import transformer from 'metalsmith-transformer';
-import watch	 from 'metalsmith-watch';
 import nunjucks from 'nunjucks';
 
 import collectionConfig from './config/collections';
@@ -16,7 +15,6 @@ import excerptConfig from './config/excerpts';
 import layoutConfig from './config/layouts';
 import markdownConfig from './config/markdown';
 import serveConfig from './config/serve';
-import watchConfig from './config/watch';
 import permalinkConfig from './config/permalinks';
 
 import { includeFile, options as transformerConfig } from './config/lineEndings';
@@ -35,10 +33,7 @@ const addBuild = (ms) =>
 		}
 	});
 
-const addServe = (ms) =>
-	ms
-	.use(serve(serveConfig))
-	.use(watch(watchConfig));
+const addServe = (ms) => ms.use(serve(serveConfig));
 
 const getBase = () =>
 	metalsmith(__dirname)

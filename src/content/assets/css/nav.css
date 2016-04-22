@@ -1,24 +1,26 @@
 .sidebar {
 	background-color: lightgray;
-	padding: 2em;
-	flex: 0, 0, 12em;
-	border-right: 0.1em solid black;
+	padding: 2rem;
+	border-right: 0.1rem solid black;
+	flex-basis: 15%;
 }
 
 .sidebar-category {
-	font-size: 16pt;
+	display: block;
+	font-size: 2.4rem;
 	font-weight: bold;
 	color: brown;
+	margin-top: 3rem;
 }
 
-.sidebar-list {
+li {
 	list-style-type: disc;
-	padding-left: 2em;
+	margin-left: 2rem;
 }
 
 .sidebar-item {
 	display: block;
-	margin-bottom: 2em;
+	margin-bottom: 2rem;
 }
 
 .sidebar-link:hover {
@@ -29,14 +31,10 @@
 	color: deeppink;
 }
 
-.sidebar-active-page {
-	display: block;
-}
-
 .home-logo {
 	max-height: 50px;
 	max-width: 50px;
-	margin-bottom: 2em;
+	margin-bottom: 2rem;
 	margin-left: 25%;
 	margin-right: 25%;
 }
