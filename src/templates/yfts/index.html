@@ -17,5 +17,13 @@
 			<hr />
 			{% endif %}
 		{% endfor %}
+		{% if pagination.num > 1 %}
+			<a href="/{{ pagination.first.path }}"><--</a>
+			<a href="/{{ pagination.previous.path }}"><-</a>
+		{% endif %}
+		{% if pagination.num < pagination.pages.length  %}
+			<a href="/{{ pagination.next.path }}">-></a>
+			<a href="/{{ pagination.last.path }}">--></a>
+		{% endif %}
 	</div>
 {% endblock %}

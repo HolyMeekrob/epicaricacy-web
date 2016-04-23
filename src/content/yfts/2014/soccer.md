@@ -3,7 +3,6 @@ title: Soccer
 layout: yfts/post.html
 date: 2014-06-15
 ---
-
 The 2014 World Cup recently began in Brazil, a nation lacking in the sanitation, infrastructure, public safety, and financial resources that are usually required to host an international spectacle of this level. Yet, one other thing acts as a larger blight over the event than any of these others. That is the sport of soccer itself. I believe that soccer is an objectively bad sport — one of the worst sports in the world, in fact — and I will attempt to prove that here.
 
 People often cite soccer’s popularity as a defense of the game and proof of its quality. This is an appeal to popularity, and it is a fallacy. Arguing that it is liked by a large number of people is not the same as arguing that it is good. A quick glance at the box office charts, or record sales, or television ratings will tell you all that you need to know about the validity of such an argument.
