@@ -1,6 +1,5 @@
 ---
 title: The Force Awakens
-layout: yfts/post.html
 moreText: how J.J. Abrams ruined Star Wars
 date: 2015-12-19
 ---

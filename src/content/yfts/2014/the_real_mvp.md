@@ -1,6 +1,5 @@
 ---
 title: Kevin Durant's 2014 MVP Speech
-layout: yfts/post.html
 moreText: the least valuable speech
 date: 2014-05-07
 ---

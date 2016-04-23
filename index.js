@@ -5,6 +5,7 @@ import drafts from 'metalsmith-drafts';
 import excerpts from 'metalsmith-better-excerpts';
 import layouts from 'metalsmith-layouts';
 import markdown from 'metalsmith-markdownit';
+import pageData from 'metalsmith-page-data';
 import pagination from 'metalsmith-pagination';
 import permalinks from 'metalsmith-permalinks';
 import serve from 'metalsmith-serve';
@@ -16,6 +17,7 @@ import excerptConfig from './config/excerpts';
 import layoutConfig from './config/layouts';
 import markdownConfig from './config/markdown';
 import serveConfig from './config/serve';
+import pageDataConfig from './config/pageData'
 import paginationConfig from './config/pagination';
 import permalinkConfig from './config/permalinks';
 
@@ -47,6 +49,7 @@ const getBase = () =>
 		.use(permalinks(permalinkConfig))
 		.use(excerpts(excerptConfig))
 		.use(pagination(paginationConfig))
+		.use(pageData(pageDataConfig))
 		.use(layouts(layoutConfig))
 		.use(branch(includeFile)
 			.use(transformer(transformerConfig)))
@@ -63,6 +66,7 @@ const clean = () => {
 
 const help = () => {
 	console.log('build:\t\tBuild source to output');
+	console.log('clean:\t\tClean output directory');
 	console.log('start:\t\tBuild source and start server');
 	console.log('help:\t\tOutput this help');
 };

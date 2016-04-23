@@ -1,6 +1,5 @@
 ---
 title: Lorde
-layout: yfts/post.html
 moreText: music that makes me feel bad on a Wednesday
 date: 2014-05-12
 ---
