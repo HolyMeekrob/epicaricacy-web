@@ -1,7 +1,7 @@
 ---
 title: Kevin Durant's 2014 MVP Speech
 moreText: the least valuable speech
-date: 2014-05-07
+publishDate: 2014-05-07
 ---
 Kevin Durant gave a speech upon winning the NBA MVP award this week. People are proclaiming his speech as “powerful”, “emotional”, and other words than indicate something far more impressive than what it was. They’re calling it the greatest MVP speech of all time. I think people wanted to be moved by it because everyone loves KD. He’s humble, he plays hard, he gives back to his community, he never speaks ill of his teammates, coaches, or really anyone. And oh yeah, he’s an incredibly good basketball player with an exciting game that results in a lot of points. He’s everything you want in a sports superstar.
 

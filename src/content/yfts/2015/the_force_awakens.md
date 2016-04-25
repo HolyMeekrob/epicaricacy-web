@@ -1,7 +1,8 @@
 ---
 title: "Star Wars Episode VII: The Force Awakens"
 moreText: how J.J. Abrams ruined Star Wars
-date: 2015-12-19
+publishDate: 2015-12-19
+modifiedDate: 2016-04-25
 ---
 After viewing Episode II upon its release, my viewing group and I emerged from the theater, stood beneath the box office signs at the front of the theater, and performed a ritual that I'm sure many of you share, whereupon we clear up confusions, share opinions, and attempt to classify what we had just seen. To this day, I clearly remember a good friend of mine saying, “People will argue because of nostalgia, but that was the best Star Wars yet.” The rest of us stood there flabbergasted because Episode II was quite obviously not the best Star Wars yet, nor even very good to begin with.
 

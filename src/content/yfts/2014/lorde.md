@@ -1,7 +1,7 @@
 ---
 title: Lorde
 moreText: music that makes me feel bad on a Wednesday
-date: 2014-05-12
+publishDate: 2014-05-12
 ---
 Lorde came out of nowhere last year, nowhere being a nickname for Middle Earth (more commonly known as New Zealand), with some nonsense song that is barely about a baseball team from Kansas City. What it’s mostly about isn’t baseball, but rather a hollow criticism of hip hop lyricism. Most specifically, the stunting and braggadocio that is ever-present across the genre.
 

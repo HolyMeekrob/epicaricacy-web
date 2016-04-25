@@ -1,6 +1,7 @@
 import metalsmith from 'metalsmith';
 import branch from 'metalsmith-branch';
 import collections from 'metalsmith-collections';
+import dateFormatter from 'metalsmith-date-formatter';
 import drafts from 'metalsmith-drafts';
 import excerpts from 'metalsmith-better-excerpts';
 import layouts from 'metalsmith-layouts';
@@ -13,6 +14,7 @@ import transformer from 'metalsmith-transformer';
 import nunjucks from 'nunjucks';
 
 import collectionConfig from './config/collections';
+import dateConfig from './config/dates';
 import excerptConfig from './config/excerpts';
 import layoutConfig from './config/layouts';
 import markdownConfig from './config/markdown';
@@ -50,6 +52,7 @@ const getBase = () =>
 		.use(excerpts(excerptConfig))
 		.use(pagination(paginationConfig))
 		.use(pageData(pageDataConfig))
+		.use(dateFormatter(dateConfig))
 		.use(layouts(layoutConfig))
 		.use(branch(includeFile)
 			.use(transformer(transformerConfig)))

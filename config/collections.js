@@ -1,7 +1,7 @@
 export default {
 	yfts: {
 		pattern: 'yfts/*/**/*.html',
-		sortBy: 'date',
+		sortBy: 'publishDate',
 		reverse: true
 	}
 };

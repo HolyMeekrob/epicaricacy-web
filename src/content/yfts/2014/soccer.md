@@ -1,6 +1,6 @@
 ---
 title: Soccer
-date: 2014-06-15
+publishDate: 2014-06-15
 ---
 The 2014 World Cup recently began in Brazil, a nation lacking in the sanitation, infrastructure, public safety, and financial resources that are usually required to host an international spectacle of this level. Yet, one other thing acts as a larger blight over the event than any of these others. That is the sport of soccer itself. I believe that soccer is an objectively bad sport — one of the worst sports in the world, in fact — and I will attempt to prove that here.
 

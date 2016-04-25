@@ -2,19 +2,26 @@
 {% set hideHeader = true %}
 {% block head %}
 	{{ super() }}
+	<link rel="stylesheet" href="/assets/css/yfts.css" />
 {% endblock %}
 
 {% block content %}
-	<div>
-		<span>Date: {{date}}</span>
-	</div>
 	<div class="narrow-page">
 		<div><h2><a href="/yfts">YOUR FAVORITE THING SUCKS</a></h2></div>
 		<div><h1>{{title}}</h1></div>
 		{{ contents | safe }}
+		<div class="date">
+			Posted on {{ publishDate }}
+		</div>
+		<div>
+		{% if modifiedDate %}
+		<div class="date">
+			Last updated on {{ modifiedDate }}
+		</div>
+		{% endif %}
 		<div class="center">
-			{% if next %}<a href="/{{next.path}}">Previous</a>{% endif %}
-			{% if previous %}<a href="/{{previous.path}}">Next</a>{% endif %}
+			{% if next %}<a href="/{{next.path}}">Older</a>{% endif %}
+			{% if previous %}<a href="/{{previous.path}}">Newer</a>{% endif %}
 		</div>
 	</div>
 {% endblock %}
