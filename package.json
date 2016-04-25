@@ -7,6 +7,7 @@
 		"build": "babel-node index build",
 		"clean": "babel-node index clean",
 		"help": "babel-node index help",
+		"lint": "eslint ./**/*.js",
 		"start": "babel-node index buildAndServe",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
@@ -26,7 +27,7 @@
 		"metalsmith-drafts": "0.0.1",
 		"metalsmith-layouts": "^1.6.4",
 		"metalsmith-markdownit": "^0.3.0",
-		"metalsmith-page-data": "^1.0.1",
+		"metalsmith-page-data": "^1.1.0",
 		"metalsmith-pagination": "^1.4.0",
 		"metalsmith-permalinks": "^0.5.0",
 		"metalsmith-serve": "0.0.7",

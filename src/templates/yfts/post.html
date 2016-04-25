@@ -6,12 +6,15 @@
 
 {% block content %}
 	<div>
-		{% if next %}<a href="/{{next.path}}">Next</a>{% endif %}
-		{% if previous %}<a href="/{{previous.path}}">Previous</a>{% endif %}
 		<span>Date: {{date}}</span>
 	</div>
 	<div class="narrow-page">
-		<h1>YOUR FAVORITE THING SUCKS - {{title}}</h1>
+		<div><h2><a href="/yfts">YOUR FAVORITE THING SUCKS</a></h2></div>
+		<div><h1>{{title}}</h1></div>
 		{{ contents | safe }}
+		<div class="center">
+			{% if next %}<a href="/{{next.path}}">Previous</a>{% endif %}
+			{% if previous %}<a href="/{{previous.path}}">Next</a>{% endif %}
+		</div>
 	</div>
 {% endblock %}

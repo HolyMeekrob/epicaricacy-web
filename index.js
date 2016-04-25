@@ -17,7 +17,7 @@ import excerptConfig from './config/excerpts';
 import layoutConfig from './config/layouts';
 import markdownConfig from './config/markdown';
 import serveConfig from './config/serve';
-import pageDataConfig from './config/pageData'
+import pageDataConfig from './config/pageData';
 import paginationConfig from './config/pagination';
 import permalinkConfig from './config/permalinks';
 

@@ -1,5 +1,5 @@
 ---
-title: The Force Awakens
+title: "Star Wars Episode VII: The Force Awakens"
 moreText: how J.J. Abrams ruined Star Wars
 date: 2015-12-19
 ---

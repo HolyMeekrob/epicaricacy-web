@@ -34,7 +34,7 @@ export const cleanDir = (baseDir) => {
 	});
 
 	const dirsToDelete = dirStats.filter((itemObj) => {
-		return itemObj.stats.isDirectory() && !excludedDirs.includes(itemObj.name)
+		return itemObj.stats.isDirectory() && !excludedDirs.includes(itemObj.name);
 	});
 
 	filesToDelete.forEach((file) => {
