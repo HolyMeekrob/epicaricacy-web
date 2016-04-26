@@ -1,13 +1,19 @@
 {% extends "base.html" %}
 {% set activePage = 'home' %}
 
+{% block head %}
+{{ super() }}
+	<link rel="stylesheet" href="/assets/css/home.css" />
+{% endblock %}
+
 {% block content %}
-	<div class="block center">
+	<div class="center">
 		<h1>Vigo the Carpathian, the original epicaricacist, welcomes you.</h1>
-		<img src="/assets/images/home/vigo.jpg" alt="Vigo the Carpathian" style="height: 400px; width: auto" />
+		<img class="vertical-space-medium greeter"src="/assets/images/home/vigo.jpg"
+			alt="Vigo the Carpathian" />
 	</div>
 
-	<div class="center vertical-space-tall">
+	<div class="center vertical-space-medium">
 		<span>
 			This site is being contienually updated.
 			Your impatience is like the buzzing of flies to Vigo.

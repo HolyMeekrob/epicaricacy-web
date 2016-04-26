@@ -58,11 +58,18 @@ h1 {
 	margin-right: auto;
 }
 
-.vertical-space-tall {
+.vertical-space-medium {
 	margin-top: 5rem;
+}
+
+.vertical-space-tall {
+	margin-top: 10rem;
 }
 
 .narrow-page {
 	margin: 8vw;
-	padding: 3rem;
+	padding-left: 5rem;
+	padding-right: 5rem;
+	padding-top: 8rem;
+	padding-bottom: 8rem;
 }

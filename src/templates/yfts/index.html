@@ -1,31 +1,40 @@
 {% extends "base.html" %}
 {% if path == pagination.first.path %}{% set activePage = "yfts" %}{% endif %}
 {% set title = "Your Favorite Thing Sucks" %}
+{% set hideHeader = true %}
 {% block head %}
 	{{ super() }}
+	<link rel="stylesheet" href="/assets/css/yfts.css" />
 {% endblock %}
 
 {% block content %}
-	<h2>A hate blog for just about everything</h2>
-	<div>
-		{% for post in pagination.files %}
-			{% if pagination.num == 1 %}{% set activePage = "yfts" %}{% endif %}
-			<div><h2><a href="/{{ post.path }}">{{ post.title }}</a></h2></div>
-			<div>{{ post.excerpt | safe }}</div>
-			<div>
-				<a href="/{{ post.path }}">Keep reading about {{ post.moreText | default('it') }}...</a>
-			</div>
-			{% if not loop.last %}
-			<hr />
+	<div class="narrow-page page-content">
+		<div class="center" />
+			<h1>{{title}}</h1>
+			<h2>A hate blog for just about everything</h2>
+		</div>
+		<div class="vertical-space-tall">
+			{% for post in pagination.files %}
+				{% if pagination.num == 1 %}{% set activePage = "yfts" %}{% endif %}
+				<div><h2><a href="/{{ post.path }}">{{ post.title }}</a></h2></div>
+				<div>{{ post.excerpt | safe }}</div>
+				<div>
+					<a href="/{{ post.path }}">
+						Keep reading about {{ post.moreText | default('it') }}...
+					</a>
+				</div>
+				{% if not loop.last %}
+				<hr class="vertical-space-medium" />
+				{% endif %}
+			{% endfor %}
+			{% if pagination.num > 1 %}
+				<a href="/{{ pagination.first.path }}"><--</a>
+				<a href="/{{ pagination.previous.path }}"><-</a>
 			{% endif %}
-		{% endfor %}
-		{% if pagination.num > 1 %}
-			<a href="/{{ pagination.first.path }}"><--</a>
-			<a href="/{{ pagination.previous.path }}"><-</a>
-		{% endif %}
-		{% if pagination.num < pagination.pages.length  %}
-			<a href="/{{ pagination.next.path }}">-></a>
-			<a href="/{{ pagination.last.path }}">--></a>
-		{% endif %}
+			{% if pagination.num < pagination.pages.length  %}
+				<a href="/{{ pagination.next.path }}">-></a>
+				<a href="/{{ pagination.last.path }}">--></a>
+			{% endif %}
+		</div>
 	</div>
 {% endblock %}

@@ -6,14 +6,16 @@
 {% endblock %}
 
 {% block content %}
-	<div class="narrow-page">
-		<div class="relative center">
+	<div class="narrow-page page-content">
+		<div class="relative center ">
 			<a href="/yfts">
 				<img class="heading" src="/assets/images/yfts/title.png" />
 			</a>
 			<div class="title"><h1>{{title}}</h1></div>
 		</div>
-		{{ contents | safe }}
+		<div class="vertical-space-tall">
+			{{ contents | safe }}
+		<div>
 		<div class="date">
 			Posted on {{ publishDate }}
 		</div>
