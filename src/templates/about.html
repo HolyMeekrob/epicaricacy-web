@@ -4,11 +4,13 @@
 {% block head %}
 	{{ super() }}
 	<link rel="stylesheet" href="/assets/css/about.css" />
+	<script src="/assets/scripts/about.js"></script>
 {% endblock %}
 
 {% block content %}
 	<div class="greeting">
-		<img class="me" src="/assets/images/about/me.jpg">
+		<img id="meImg" class="me" src="/assets/images/about/me_normal.jpg"
+			onmouseover="makeAngry()" onmouseout="makeNormal()" />
 		<h3>
 			Hello and welcome to Epicaricacy.com. My name is Andy and I hope you have
 			a terrible time here. Here's some contact info and my impression of the

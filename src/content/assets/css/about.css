@@ -1,21 +1,12 @@
 .greeting {
-	display: inline-block;
+	display: block;
 	width: 60%;
 }
 
 .me {
 	float: right;
-	height: 300px;
-	margin: 30px;
-}
-
-.hover-outline img {
-	transition: all .1s ease;
-}
-
-.hover-outline img:hover {
-	/*outline: black solid 0.4rem;*/
-	transform: scale(2.0);
+	height: 400px;;
+	margin-left: 30px;
 }
 
 .icon {
