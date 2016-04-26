@@ -7,7 +7,7 @@
 
 {% block content %}
 	<h2>A hate blog for just about everything</h2>
-	<div class="narrow-page">
+	<div>
 		{% for post in pagination.files %}
 			{% if pagination.num == 1 %}{% set activePage = "yfts" %}{% endif %}
 			<div><h2><a href="/{{ post.path }}">{{ post.title }}</a></h2></div>

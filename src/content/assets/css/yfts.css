@@ -3,3 +3,15 @@
 	font-style: italic;
 	color: gray;
 }
+
+.heading {
+	width: 100%;
+	height: auto;
+}
+
+.title {
+	position: absolute;
+	bottom: 0;
+	left: 25%;
+	right: 25%;
+}

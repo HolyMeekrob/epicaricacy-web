@@ -3,10 +3,8 @@ h1 {
 	margin-bottom: 2rem;
 }
 
-.narrow-page {
-	margin: 2rem;
-	padding: 3rem;
-	background: antiquewhite;
+.page-content {
+	background-color: antiquewhite;
 	box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem gray;
 }
 

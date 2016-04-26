@@ -25,6 +25,10 @@ h1 {
 	display: none;
 }
 
+.relative {
+	position: relative;
+}
+
 .error, .red {
 	color: red;
 }
@@ -56,4 +60,9 @@ h1 {
 
 .vertical-space-tall {
 	margin-top: 5rem;
+}
+
+.narrow-page {
+	margin: 8vw;
+	padding: 3rem;
 }
