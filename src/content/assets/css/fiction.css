@@ -1,23 +1,17 @@
-.list {
-	display: flex;
-	flex-direction: column;
-	margin-right: 20%;
+dt {
+	margin-top: 5rem;
+	padding: 0.5rem;
+	float: left;
+	width: 30%;
 }
 
-.line-item {
-	display: flex;
-	flex-direction: row;
-	margin-top: 2rem;
-
-	padding: 0.5em
+dd {
+	margin-top: 5rem;
+	float: left;
+	width: 60%
 }
 
-.title {
-	flex-grow: 0;
-	flex-basis: 20%;
-	margin-right: 2rem;
-}
-
-.description {
-	flex-grow: 1
+dd:after {
+	display: block;
+	clear: both;
 }
