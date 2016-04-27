@@ -9,13 +9,11 @@
 
 {% block content %}
 	<div class="greeting">
-		<img id="meImg" class="me" src="/assets/images/about/me_normal.jpg"
-			onmouseover="makeAngry()" onmouseout="makeNormal()" />
-		<h3>
-			Hello and welcome to Epicaricacy.com. My name is Andy and I hope you have
-			a terrible time here. Here's some contact info and my impression of the
-			Ultimate Warrior on a job interview.
-		</h3>
+		<a href="https://www.youtube.com/watch?v=Q46l70mNmCw">
+			<img id="meImg" class="me" src="/assets/images/about/me_normal.jpg"
+				onmouseover="makeAngry()" onmouseout="makeNormal()" />
+		</a>
+		<h3>{{ contents | safe }}</h3>
 		<div class="icons">
 			<a href="https://www.twitter.com/HolyMeekrob">
 				<div class="tw icon"></div>
