@@ -81,3 +81,11 @@
 .st:hover {
 	background-image: url("/assets/images/about/steam_lg.png")
 }
+
+.gr {
+	background-image: url("/assets/images/about/goodreads_sm.png");
+}
+
+.gr:hover {
+	background-image: url("/assets/images/about/goodreads_lg.png")
+}
