@@ -4,12 +4,13 @@ h1 {
 }
 
 .page-content {
-	background-color: antiquewhite;
+	background-color: #FAEBD7;
 	box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem gray;
+	text-align: justify;
 }
 
 .page-color {
-	color: antiquewhite
+	color: #FAEBD7;
 }
 
 blockquote {
@@ -19,5 +20,9 @@ blockquote {
 
 hr {
 	margin-top: 3rem;
+	margin-bottom: 3rem;
+}
+
+p {
 	margin-bottom: 3rem;
 }
