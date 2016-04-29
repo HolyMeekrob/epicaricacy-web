@@ -6,11 +6,11 @@ body {
 	margin: 0;
 	font-family: "Comic Sans MS", "Comic Sans", "Short Stack", sans-serif;
 	font-size: 2rem;
-	background-color: #add8e6;
+	background-color: #ADD8E6;
 }
 
 h1 {
-	text-shadow: 4px 4px 4px #aaa;
+	text-shadow: 4px 4px 4px #AAA;
 }
 
 .block {
@@ -30,7 +30,7 @@ h1 {
 }
 
 .error, .red {
-	color: red;
+	color: #FF0000;
 }
 
 .outer-container {

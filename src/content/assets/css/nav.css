@@ -1,7 +1,7 @@
 .sidebar {
-	background-color: lightgray;
+	background-color: #D3D3D3;
 	padding: 2rem;
-	border-right: 0.1rem solid black;
+	border-right: 0.1rem solid #000000;
 	flex-basis: 15%;
 }
 
@@ -9,7 +9,7 @@
 	display: block;
 	font-size: 2.4rem;
 	font-weight: bold;
-	color: brown;
+	color: #A52A2A;
 	margin-top: 3rem;
 }
 
@@ -24,11 +24,11 @@ li {
 }
 
 .sidebar-link:hover {
-	color: darkred;
+	color: #8B0000
 }
 
 .sidebar-link:active {
-	color: deeppink;
+	color: #FF1493
 }
 
 .home-logo {

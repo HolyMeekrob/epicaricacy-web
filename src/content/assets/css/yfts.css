@@ -1,7 +1,7 @@
 .date {
 	font-size: 1.4rem;
 	font-style: italic;
-	color: gray;
+	color: #808080;
 }
 
 .heading {
@@ -15,11 +15,11 @@
 	box-shadow:
 	0 0 0 1.0rem #006600,
 	0 0 0 1.5rem #008800,
-	0 0 0 2.0rem #00aa00,
-	0 0 0 2.5rem #00cc00,
-	0 0 0 3.0rem #00ff00,
-	0 0 0 3.5rem #22ff22,
-	0 0 0 4.0rem #44ff44;
+	0 0 0 2.0rem #00AA00,
+	0 0 0 2.5rem #00CC00,
+	0 0 0 3.0rem #00FF00,
+	0 0 0 3.5rem #22FF22,
+	0 0 0 4.0rem #44FF44;
 	text-align: justify;
 }
 

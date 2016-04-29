@@ -5,7 +5,7 @@ h1 {
 
 .page-content {
 	background-color: #FAEBD7;
-	box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem gray;
+	box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem #808080;
 	text-align: justify;
 }
 
