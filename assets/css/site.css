@@ -1,12 +1,16 @@
+html {
+	font-size: 62.5%
+}
+
 body {
 	margin: 0;
 	font-family: "Comic Sans MS", "Comic Sans", "Short Stack", sans-serif;
-	font-size: 14pt;
-	background-color: lightblue;
+	font-size: 2rem;
+	background-color: #ADD8E6;
 }
 
 h1 {
-	text-shadow: 4px 4px 4px #aaa;
+	text-shadow: 4px 4px 4px #AAA;
 }
 
 .block {
@@ -21,8 +25,12 @@ h1 {
 	display: none;
 }
 
+.relative {
+	position: relative;
+}
+
 .error, .red {
-	color: red;
+	color: #FF0000;
 }
 
 .outer-container {
@@ -40,7 +48,7 @@ h1 {
 
 .content {
 	width: 100%;
-	padding: 2em;
+	padding: 2rem;
 	flex: 1;
 }
 
@@ -50,6 +58,18 @@ h1 {
 	margin-right: auto;
 }
 
+.vertical-space-medium {
+	margin-top: 5rem;
+}
+
 .vertical-space-tall {
-	margin-top: 5em;
+	margin-top: 10rem;
+}
+
+.narrow-page {
+	margin: 8vw 20%;
+	padding-left: 5rem;
+	padding-right: 5rem;
+	padding-top: 8rem;
+	padding-bottom: 8rem;
 }

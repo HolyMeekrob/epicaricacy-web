@@ -1,10 +1,91 @@
 .greeting {
-	display: inline-block;
+	display: block;
 	width: 60%;
 }
 
 .me {
 	float: right;
-	height: 300px;
-	margin: 30px;
+	height: 400px;
+	margin-left: 5rem;
+}
+
+.icon {
+	height: 64px;
+	width: 64px;
+	background-position: center;
+	background-repeat: no-repeat;
+	transition: background-image .1s ease;
+	float: left;
+}
+
+.tw {
+	background-image: url("/assets/images/about/twitter_sm.png");
+}
+
+.tw:hover {
+	background-image: url("/assets/images/about/twitter_lg.png");
+}
+
+.fb {
+	background-image: url("/assets/images/about/fb_sm.png");
+}
+
+.fb:hover {
+	background-image: url("/assets/images/about/fb_lg.png");
+}
+
+.gp {
+	background-image: url("/assets/images/about/gplus_sm.png");
+}
+
+.gp:hover {
+	background-image: url("/assets/images/about/gplus_lg.png");
+}
+
+.li {
+	background-image: url("/assets/images/about/linkedin_sm.png");
+}
+
+.li:hover {
+	background-image: url("/assets/images/about/linkedin_lg.png");
+}
+
+.gh {
+	background-image: url("/assets/images/about/github_sm.png");
+}
+
+.gh:hover {
+	background-image: url("/assets/images/about/github_lg.png");
+}
+
+.yp {
+	background-image: url("/assets/images/about/yelp_sm.png");
+}
+
+.yp:hover {
+	background-image: url("/assets/images/about/yelp_lg.png");
+}
+
+.pn {
+	background-image: url("/assets/images/about/pinterest_sm.png");
+}
+
+.pn:hover {
+	background-image: url("/assets/images/about/pinterest_lg.png");
+}
+
+.st {
+	background-image: url("/assets/images/about/steam_sm.png");
+}
+
+.st:hover {
+	background-image: url("/assets/images/about/steam_lg.png");
+}
+
+.gr {
+	background-image: url("/assets/images/about/goodreads_sm.png");
+}
+
+.gr:hover {
+	background-image: url("/assets/images/about/goodreads_lg.png");
 }

@@ -1,42 +1,40 @@
 .sidebar {
-	background-color: lightgray;
-	padding: 2em;
-	flex: 0, 0, 12em;
-	border-right: 0.1em solid black;
+	background-color: #D3D3D3;
+	padding: 2rem;
+	border-right: 0.1rem solid #000000;
+	flex-basis: 15%;
 }
 
 .sidebar-category {
-	font-size: 16pt;
+	display: block;
+	font-size: 2.4rem;
 	font-weight: bold;
-	color: brown;
+	color: #A52A2A;
+	margin-top: 3rem;
 }
 
-.sidebar-list {
+li {
 	list-style-type: disc;
-	padding-left: 2em;
+	margin-left: 2rem;
 }
 
 .sidebar-item {
 	display: block;
-	margin-bottom: 2em;
+	margin-bottom: 2rem;
 }
 
 .sidebar-link:hover {
-	color: darkred;
+	color: #8B0000
 }
 
 .sidebar-link:active {
-	color: deeppink;
-}
-
-.sidebar-active-page {
-	display: block;
+	color: #FF1493
 }
 
 .home-logo {
 	max-height: 50px;
 	max-width: 50px;
-	margin-bottom: 2em;
+	margin-bottom: 2rem;
 	margin-left: 25%;
 	margin-right: 25%;
 }

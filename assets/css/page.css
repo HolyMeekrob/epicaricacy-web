@@ -1,25 +1,28 @@
 h1 {
 	text-align: center;
-	margin-bottom: 2em;
+	margin-bottom: 2rem;
 }
 
-.narrow-page {
-	margin: 2em;
-	padding: 3em;
-	background: antiquewhite;
-	box-shadow: 0.1em 0.1em 0.1em 0.1em gray;
+.page-content {
+	background-color: #FAEBD7;
+	box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem #808080;
+	text-align: justify;
 }
 
 .page-color {
-	color: antiquewhite
+	color: #FAEBD7;
 }
 
 blockquote {
-	margin: 0 0 0 1em;
+	margin: 0 0 0 1rem;
 	font-style: italic;
 }
 
 hr {
-	margin-top: 3em;
-	margin-bottom: 3em;
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+}
+
+p {
+	margin-bottom: 3rem;
 }
