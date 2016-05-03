@@ -1,13 +1,16 @@
-dt {
+@define-placeholder dl-element {
 	margin-top: 5rem;
-	padding: 0.5rem;
 	float: left;
+}
+
+dt {
+	@extend dl-element;
+	padding: 0.5rem;
 	width: 30%;
 }
 
 dd {
-	margin-top: 5rem;
-	float: left;
+	@extend dl-element;
 	width: 60%;
 	text-align: justify;
 }

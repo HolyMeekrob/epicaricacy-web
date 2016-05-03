@@ -1,6 +1,7 @@
 export default {
 	plugins: {
 		'postcss-mixins': {},
-		'postcss-advanced-variables': {}
+		'postcss-advanced-variables': {},
+		'postcss-extend': {}
 	}
 };
