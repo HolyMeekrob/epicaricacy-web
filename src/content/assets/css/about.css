@@ -18,74 +18,41 @@
 	float: left;
 }
 
-.tw {
-	background-image: url("/assets/images/about/twitter_sm.png");
+$imgDir: /assets/images/about;
+
+@define-mixin icon $abbr, $filename {
+	.$abbr {
+		background-image: url("$imgDir/$(filename)_sm.png");
+	}
+	
+	.$abbr:hover {
+		background-image: url("$imgDir/$(filename)_lg.png");
+	}
 }
 
-.tw:hover {
-	background-image: url("/assets/images/about/twitter_lg.png");
+@mixin icon tw, twitter {
 }
 
-.fb {
-	background-image: url("/assets/images/about/fb_sm.png");
+@mixin icon fb, fb {
 }
 
-.fb:hover {
-	background-image: url("/assets/images/about/fb_lg.png")
+@mixin icon gp, gplus {
 }
 
-.gp {
-	background-image: url("/assets/images/about/gplus_sm.png");
+@mixin icon li, linkedin {
 }
 
-.gp:hover {
-	background-image: url("/assets/images/about/gplus_lg.png");
+@mixin icon gh, github {
 }
 
-.li {
-	background-image: url("/assets/images/about/linkedin_sm.png");
+@mixin icon yp, yelp {
 }
 
-.li:hover {
-	background-image: url("/assets/images/about/linkedin_lg.png");
+@mixin icon pn, pinterest {
 }
 
-.gh {
-	background-image: url("/assets/images/about/github_sm.png");
+@mixin icon st, steam {
 }
 
-.gh:hover {
-	background-image: url("/assets/images/about/github_lg.png")
-}
-
-.yp {
-	background-image: url("/assets/images/about/yelp_sm.png");
-}
-
-.yp:hover {
-	background-image: url("/assets/images/about/yelp_lg.png")
-}
-
-.pn {
-	background-image: url("/assets/images/about/pinterest_sm.png");
-}
-
-.pn:hover {
-	background-image: url("/assets/images/about/pinterest_lg.png")
-}
-
-.st {
-	background-image: url("/assets/images/about/steam_sm.png");
-}
-
-.st:hover {
-	background-image: url("/assets/images/about/steam_lg.png")
-}
-
-.gr {
-	background-image: url("/assets/images/about/goodreads_sm.png");
-}
-
-.gr:hover {
-	background-image: url("/assets/images/about/goodreads_lg.png")
+@mixin icon gr, goodreads {
 }

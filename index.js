@@ -9,11 +9,13 @@ import markdown from 'metalsmith-markdownit';
 import pageData from 'metalsmith-page-data';
 import pagination from 'metalsmith-pagination';
 import permalinks from 'metalsmith-permalinks';
+import postcss from 'metalsmith-postcss';
 import serve from 'metalsmith-serve';
 import transformer from 'metalsmith-transformer';
 import nunjucks from 'nunjucks';
 
 import collectionConfig from './config/collections';
+import cssConfig from './config/postcss';
 import dateConfig from './config/dates';
 import excerptConfig from './config/excerpts';
 import layoutConfig from './config/layouts';
@@ -56,6 +58,7 @@ const getBase = () =>
 		.use(layouts(layoutConfig))
 		.use(branch(includeFile)
 			.use(transformer(transformerConfig)))
+		.use(postcss(cssConfig))
 		.destination('./dist');
 
 const build = () =>	addBuild(getBase());

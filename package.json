@@ -31,8 +31,11 @@
 		"metalsmith-page-data": "^1.1.1",
 		"metalsmith-pagination": "^1.4.0",
 		"metalsmith-permalinks": "^0.5.0",
+		"metalsmith-postcss": "^4.0.0",
 		"metalsmith-serve": "0.0.7",
 		"metalsmith-transformer": "^2.0.0",
-		"nunjucks": "^2.4.2"
+		"nunjucks": "^2.4.2",
+		"postcss-advanced-variables": "^1.2.2",
+		"postcss-mixins": "^4.0.1"
 	}
 }

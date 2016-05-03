@@ -1,16 +1,18 @@
+$paper: #FAEBD7;
+
 h1 {
 	text-align: center;
 	margin-bottom: 2rem;
 }
 
 .page-content {
-	background-color: #FAEBD7;
+	background-color: $paper;
 	box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem #808080;
 	text-align: justify;
 }
 
 .page-color {
-	color: #FAEBD7;
+	color: $paper;
 }
 
 blockquote {
