@@ -38,3 +38,8 @@ li {
 	margin-left: 25%;
 	margin-right: 25%;
 }
+
+.sticky {
+	position: sticky;
+	top: 2rem;
+}

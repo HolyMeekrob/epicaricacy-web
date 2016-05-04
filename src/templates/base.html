@@ -12,15 +12,13 @@
 	</head>
 	<body>
 		<div class="outer-container">
-			<div class="inner-container">
-				<nav class="sidebar">
-					{% include "partials/nav.html" %}
-				</nav>
-				<main class="content">
-					{% if not hideHeader %}<h1>{{ header | default(title) }}</h1>{% endif %}
-					{% block content %}{% endblock %}
-				</main>
-			</div>
+			<nav class="sidebar">
+				{% include "partials/nav.html" %}
+			</nav>
+			<main class="content">
+				{% if not hideHeader %}<h1>{{ header | default(title) }}</h1>{% endif %}
+				{% block content %}{% endblock %}
+			</main>
 		</div>
 	</body>
 </html>
