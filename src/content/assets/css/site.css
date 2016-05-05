@@ -43,6 +43,7 @@ h1 {
 	width: 100%;
 	padding: 2rem;
 	flex: 1;
+	margin: 10%;
 }
 
 .center {
@@ -60,7 +61,7 @@ h1 {
 }
 
 .narrow-page {
-	margin: 8vw 20%;
+	margin: 8vw 10%;
 	padding-left: 5rem;
 	padding-right: 5rem;
 	padding-top: 8rem;
