@@ -4,6 +4,7 @@ import collections from 'metalsmith-collections';
 import dateFormatter from 'metalsmith-date-formatter';
 import drafts from 'metalsmith-drafts';
 import excerpts from 'metalsmith-better-excerpts';
+import feed from 'metalsmith-feed';
 import layouts from 'metalsmith-layouts';
 import markdown from 'metalsmith-markdownit';
 import pageData from 'metalsmith-page-data';
@@ -18,6 +19,7 @@ import collectionConfig from './config/collections';
 import cssConfig from './config/postcss';
 import dateConfig from './config/dates';
 import excerptConfig from './config/excerpts';
+import yftsFeedConfig from './config/feed';
 import layoutConfig from './config/layouts';
 import markdownConfig from './config/markdown';
 import serveConfig from './config/serve';
@@ -45,6 +47,11 @@ const addServe = (ms) => ms.use(serve(serveConfig));
 
 const getBase = () =>
 	metalsmith(__dirname)
+		.metadata({
+			site: {
+				url: 'http://www.epicaricacy.com'
+			}
+		})
 		.source('./src/content')
 		.clean(false)
 		.use(drafts())
@@ -52,6 +59,7 @@ const getBase = () =>
 		.use(collections(collectionConfig))
 		.use(permalinks(permalinkConfig))
 		.use(excerpts(excerptConfig))
+		.use(feed(yftsFeedConfig))
 		.use(pagination(paginationConfig))
 		.use(pageData(pageDataConfig))
 		.use(dateFormatter(dateConfig))
