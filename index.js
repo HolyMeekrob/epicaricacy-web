@@ -31,7 +31,9 @@ import { includeFile, options as transformerConfig } from './config/lineEndings'
 
 import { cleanDir } from './clean';
 
-nunjucks.configure('src/templates', { watch: false, nocache: true });
+const env = nunjucks.configure('src/templates', { watch: false, nocache: true });
+env.addFilter('prettifyUrl', (str) =>
+	str.replace(/index\.html/i, ''));
 
 const addBuild = (ms) =>
 	ms.build((err) => {

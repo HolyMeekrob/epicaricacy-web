@@ -28,12 +28,12 @@
 			</div>
 			{% endfor %}
 			{% if pagination.num > 1 %}
-				<a href="/{{ pagination.first.path }}"><--</a>
-				<a href="/{{ pagination.previous.path }}"><-</a>
+				<a href="/{{ pagination.first.path | prettifyUrl }}"><--</a>
+				<a href="/{{ pagination.previous.path | prettifyUrl }}"><-</a>
 			{% endif %}
 			{% if pagination.num < pagination.pages.length  %}
-				<a href="/{{ pagination.next.path }}">-></a>
-				<a href="/{{ pagination.last.path }}">--></a>
+				<a href="/{{ pagination.next.path | prettifyUrl }}">-></a>
+				<a href="/{{ pagination.last.path | prettifyUrl }}">--></a>
 			{% endif %}
 	</div>
 {% endblock %}
