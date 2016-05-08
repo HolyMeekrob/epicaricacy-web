@@ -1,6 +1,12 @@
 ---
 title: Meeting the Neighbors
 layout: page.html
+publishDate: 2007-11-05
+
+intro: "A short story about a man who wrongfully became a sex offender and
+				was legally required to go around introducing himself to the
+				neighborhood. Fun note: This was inspired by the scene in The Big
+				Lebowski where Jesus has to do the same thing."
 ---
 "Hi there. I just moved in next door, and I want to fuck the shit out of
 your son or daughter."

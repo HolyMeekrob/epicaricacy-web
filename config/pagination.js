@@ -6,5 +6,13 @@ export default {
 		path: 'yfts/:num/index.html',
 		filter: () => true,
 		noPageOne: true
+	},
+	'collections.fiction': {
+		perPage: 5,
+		layout: 'fiction.html',
+		first: 'fiction/index.html',
+		path: 'fiction/:num/index.html',
+		filter: () => true,
+		noPageOne: true
 	}
 };

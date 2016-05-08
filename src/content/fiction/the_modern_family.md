@@ -1,6 +1,14 @@
 ---
 title: The Modern Family
 layout: page.html
+publishDate: 2007-11-25
+
+intro: "A short story about a really depressed family. It was an attempt
+				to do dark comedy and to do something really strange with the
+				narration. Also, I wrote (and titled) this well before the TV show
+				ever came out. Fun note: I wrote this shortly after reading \"The
+				Things They Carried\" by Tim O'Brien. The original title was \"The
+				Things They Hated\"."
 ---
 Gary hates his wife. He doesn't just hate her a little bit, either. No, he
 hates her so much that he has a drawer full of elaborate murder schemes

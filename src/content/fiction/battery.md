@@ -1,6 +1,13 @@
 ---
 title: Battery
 layout: page.html
+publishDate: 2007-10-16
+
+intro: "A short story about two brothers facing off in a crucial baseball
+				game. It is very loosely based on my relationship with one of my
+				brothers. Fun note: It is very lightly implied that the victorious
+				brother plays for the Yankees. Because in my stories, the Yankees
+				will always win."
 ---
 "It figures," I mutter as the ball falls onto the shallow grass for a weak single.
 The words are rendered mute amidst the roaring chaos of fifty thousand screaming

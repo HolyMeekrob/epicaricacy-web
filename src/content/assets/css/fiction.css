@@ -3,10 +3,15 @@
 	float: left;
 }
 
+.clear {
+	clear: both;
+}
+
 dt {
 	@extend dl-element;
 	padding: 0.5rem;
 	width: 30%;
+	clear: both;
 }
 
 dd {
@@ -15,7 +20,7 @@ dd {
 	text-align: justify;
 }
 
-dd:after {
-	display: block;
+dd::after {
 	clear: both;
+	content: "";
 }

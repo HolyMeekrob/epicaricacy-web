@@ -1,6 +1,16 @@
 ---
 title: 8
 layout: page.html
+publishDate: 2014-02-26
+
+intro: "My first award winner! Well, it was a third place award (Austin
+				Chronicle's 2013 Short Story contest). I won money though, so it
+				counts. It's about a breakup, and I'll leave it at that, since the
+				exact interpretation can be open-ended. This wasn't inspired by any
+				of my breakups in particular, but rather the common way in which they
+				all affected me. Fun note: I inserted a lot of references to the
+				number eight within the story, some more disguised than others. See
+				how many you can spot!"
 ---
 *There’s someone else.*
 

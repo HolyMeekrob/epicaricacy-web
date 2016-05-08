@@ -1,6 +1,18 @@
 ---
 title: Harry Potter and The Year Time Forgot
 layout: page.html
+publishDate: 2007-08-07
+
+intro: "I loathe the Harry Potter novels. Despite this fact, I read all of
+				them. The reason I did so was to be able to win arguments with people
+				who like the books. By reading the whole series, I had all of the
+				facts. After many arguments where I found myself repeating everything,
+				I decided to write all of them down. What better way to do so then
+				by creating fan fiction that points out everything that makes the
+				books terrible? Please note that I attempted to emulate the style of
+				JK Rowling, and that's why the writing itself is bad. Fun note:
+				Newton Crosby was named after Steve Guttenberg's character in the film
+				Short	Circuit."
 ---
 ## Chapter 1:  Hedwig Dies
 

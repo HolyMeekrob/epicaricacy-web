@@ -4,4 +4,10 @@ export default [{
 		layout: 'yfts/post.html'
 	},
 	override: false
+}, {
+	pattern: 'fiction/*.html',
+	data: {
+		layout: 'page.html'
+	},
+	override: false
 }];
