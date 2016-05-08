@@ -1,6 +1,6 @@
 import path from 'path';
 
-const filetypes = ['.js', '.css', '.html', '.md'];
+const filetypes = ['.js', '.css', '.html', '.md', '.xml'];
 
 export const includeFile = (filename, props, i) => // eslint-disable-line no-unused-vars
 	filetypes.includes(path.extname(filename.toLowerCase()));

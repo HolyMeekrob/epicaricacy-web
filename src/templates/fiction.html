@@ -18,10 +18,12 @@
 				Here are some samples of fiction that I've written. I guarantee that it
 				won't be the worst thing that you've ever read on the internet.
 			</h3>
-		<dl class="relative">
+		<dl>
 			{% for post in pagination.files %}
-				<dt><a href="/{{ post.path }}">{{ post.title }}</a></dt>
-				<dd>{{ post.intro | safe }}</dd>
+				<div class="line-item">
+					<dt><a href="/{{ post.path }}">{{ post.title }}</a></dt>
+					<dd>{{ post.intro | safe }}</dd>
+				</div>
 			{% endfor %}
 		</dl>
 		<div class="clear">
