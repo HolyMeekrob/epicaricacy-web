@@ -3,9 +3,14 @@ dt, dd {
 	float: left;
 }
 
+.clear {
+	clear: both;
+}
+
 dt {
 	padding: 0.5rem;
 	width: 30%;
+	clear: both;
 }
 
 dd {
@@ -13,7 +18,11 @@ dd {
 	text-align: justify;
 }
 
-dd:after {
-	display: block;
+dd::after {
 	clear: both;
+	content: "";
+}
+
+.narrow {
+	margin: 0 8vw;
 }
