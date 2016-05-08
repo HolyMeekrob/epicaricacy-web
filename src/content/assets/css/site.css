@@ -67,3 +67,13 @@ h1 {
 	padding-top: 8rem;
 	padding-bottom: 8rem;
 }
+
+.rss {
+	height: 50px;
+	width: 50px;
+	position: fixed;
+	right: 5%;
+	top: 5%;
+	background-image: url('/assets/images/rss.png');
+	background-size: contain;
+}

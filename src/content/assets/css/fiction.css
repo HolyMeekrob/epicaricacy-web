@@ -24,3 +24,7 @@ dd::after {
 	clear: both;
 	content: "";
 }
+
+.narrow {
+	margin: 0 8vw;
+}

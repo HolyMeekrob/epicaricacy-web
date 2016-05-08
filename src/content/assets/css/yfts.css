@@ -62,11 +62,3 @@ blockquote cite {
 blockquote cite:before {
 	content: "-- ";
 }
-
-div.rss > a > img {
-	height: 50px;
-	width: 50px;
-	position: fixed;
-	right: 10%;
-	top: 10%;
-}

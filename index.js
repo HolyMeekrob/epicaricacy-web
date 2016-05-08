@@ -19,7 +19,6 @@ import collectionConfig from './config/collections';
 import cssConfig from './config/postcss';
 import dateConfig from './config/dates';
 import excerptConfig from './config/excerpts';
-import yftsFeedConfig from './config/feed';
 import layoutConfig from './config/layouts';
 import markdownConfig from './config/markdown';
 import serveConfig from './config/serve';
@@ -27,6 +26,7 @@ import pageDataConfig from './config/pageData';
 import paginationConfig from './config/pagination';
 import permalinkConfig from './config/permalinks';
 
+import feedGenerator from './config/feed';
 import { includeFile, options as transformerConfig } from './config/lineEndings';
 
 import { cleanDir } from './clean';
@@ -34,6 +34,12 @@ import { cleanDir } from './clean';
 const env = nunjucks.configure('src/templates', { watch: false, nocache: true });
 env.addFilter('prettifyUrl', (str) =>
 	str.replace(/index\.html/i, ''));
+
+const yftsFeedConfig = feedGenerator(
+	'yfts', 'Your Favorite Thing Sucks', 'A hate blog for just about everything');
+
+const fictionFeedConfig =	feedGenerator(
+	'fiction', 'Andy\'s Fiction', 'A collection of various short works');
 
 const addBuild = (ms) =>
 	ms.build((err) => {
@@ -62,6 +68,7 @@ const getBase = () =>
 		.use(permalinks(permalinkConfig))
 		.use(excerpts(excerptConfig))
 		.use(feed(yftsFeedConfig))
+		.use(feed(fictionFeedConfig))
 		.use(pagination(paginationConfig))
 		.use(pageData(pageDataConfig))
 		.use(dateFormatter(dateConfig))

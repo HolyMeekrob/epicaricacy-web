@@ -1,13 +1,19 @@
-export default {
-	collection: 'yfts',
-	destination: 'yfts.xml',
-	postDescription: (file) => {
-		file.date = file.publishDate; // eslint-disable-line no-param-reassign
-		file.author = 'Andy Steinberg'; // eslint-disable-line no-param-reassign
-		return file.contents;
-	},
-	title: 'Your Favorite Thing Sucks',
-	description: 'A hate blog for just about everything',
-	copyright: '2016 Andy Steinberg',
-	managingEditor: 'Andy Steinberg'
+const me = 'Andy Steinberg';
+const year = '2016';
+
+const copyright = `${year} ${me}`;
+
+export default (collection, title, description) => {
+	return {
+		collection,
+		destination: `${collection}.xml`,
+		postDescription: (file) => {
+			file.date = file.publishDate; // eslint-disable-line no-param-reassign
+			file.author = me; // eslint-disable-line no-param-reassign
+			return file.contents;
+		},
+		title,
+		description,
+		copyright
+	};
 };
