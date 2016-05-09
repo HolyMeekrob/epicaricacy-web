@@ -1,6 +1,5 @@
 ---
 title: Harry Potter and The Year Time Forgot
-layout: page.html
 publishDate: 2007-08-07
 
 intro: "I loathe the Harry Potter novels. Despite this fact, I read all of

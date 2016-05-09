@@ -1,6 +1,5 @@
 ---
 title: 8
-layout: page.html
 publishDate: 2014-02-26
 
 intro: "My first award winner! Well, it was a third place award (Austin

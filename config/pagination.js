@@ -1,7 +1,7 @@
 export default {
 	'collections.yfts': {
 		perPage: 5,
-		layout: 'yfts/index.html',
+		layout: 'yfts/home.html',
 		first: 'yfts/index.html',
 		path: 'yfts/:num/index.html',
 		filter: () => true,
@@ -9,7 +9,7 @@ export default {
 	},
 	'collections.fiction': {
 		perPage: 5,
-		layout: 'fiction.html',
+		layout: 'fiction/home.html',
 		first: 'fiction/index.html',
 		path: 'fiction/:num/index.html',
 		filter: () => true,

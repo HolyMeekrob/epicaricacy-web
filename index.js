@@ -32,6 +32,8 @@ import { includeFile, options as transformerConfig } from './config/lineEndings'
 import { cleanDir } from './clean';
 
 const env = nunjucks.configure('src/templates', { watch: false, nocache: true });
+
+// Nunjucks filter to use the pretty url for any index.html addresses
 env.addFilter('prettifyUrl', (str) =>
 	str.replace(/index\.html/i, ''));
 

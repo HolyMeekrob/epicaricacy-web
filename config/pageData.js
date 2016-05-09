@@ -5,9 +5,9 @@ export default [{
 	},
 	override: false
 }, {
-	pattern: 'fiction/*.html',
+	pattern: 'fiction/*/**/*.html',
 	data: {
-		layout: 'page.html'
+		layout: 'fiction/post.html'
 	},
 	override: false
 }];

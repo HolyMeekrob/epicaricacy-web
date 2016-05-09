@@ -1,6 +1,5 @@
 ---
 title: Battery
-layout: page.html
 publishDate: 2007-10-16
 
 intro: "A short story about two brothers facing off in a crucial baseball

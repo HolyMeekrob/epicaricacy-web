@@ -1,6 +1,5 @@
 ---
 title: The Modern Family
-layout: page.html
 publishDate: 2007-11-25
 
 intro: "A short story about a really depressed family. It was an attempt

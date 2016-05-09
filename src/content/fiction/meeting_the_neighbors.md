@@ -1,6 +1,5 @@
 ---
 title: Meeting the Neighbors
-layout: page.html
 publishDate: 2007-11-05
 
 intro: "A short story about a man who wrongfully became a sex offender and
