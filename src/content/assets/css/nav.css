@@ -1,8 +1,9 @@
 .sidebar {
-	background-color: #D3D3D3;
 	padding: 2rem;
 	border-right: 0.1rem solid #000000;
 	flex-basis: 15%;
+	background-color: #D3D3D3;
+	background: linear-gradient(#D3D3D3, #AAA);
 }
 
 .sidebar-category {
@@ -42,4 +43,5 @@ li {
 .sticky {
 	position: sticky;
 	top: 2rem;
+	margin-top: 25vh;
 }
