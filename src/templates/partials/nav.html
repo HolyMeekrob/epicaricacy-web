@@ -1,17 +1,16 @@
 {% set pages = [
 	{ 'href': '/fiction', 'id': 'fiction', 'text': 'Fiction' },
 	{ 'href': '/about', 'id': 'about', 'text': 'About' },
-	{ 'href': '/faq', 'id': 'faq', 'text': 'FAQ' }
-] -%}
-
-{% set blogs = [
-	{ 'href': '/yfts', 'id': 'yfts', 'text': 'Your Favorite Thing Sucks'}
+	{ 'href': '/faq', 'id': 'faq', 'text': 'FAQ' },
+	{ 'href': '/yfts', 'id': 'yfts', 'text': 'Your Favorite Thing Sucks' }
 ] -%}
 
 {% set activePage = activePage|default('home') -%}
 
 <div class="sticky">
-	<a href="/"><img class="home-logo" src="/assets/images/nav/home.png" /></a>
+	<a href="/">
+		<img class="home-logo" src="/assets/images/nav/home.png" />
+	</a>
 	{% for page in pages %}
 		{% if activePage == page.id %}
 			<span class="sidebar-item">{{ page.text }}</span>
@@ -19,16 +18,4 @@
 			<a href="{{ page.href }}" class="sidebar-item sidebar-link">{{ page.text }}</a>
 		{% endif -%}
 	{% endfor -%}
-	<span class="sidebar-item sidebar-category">Blogs</span>
-	<ul>
-	{% for blog in blogs %}
-		<li>
-		{% if activePage == blog.id %}
-			<span>{{ blog.text }}</span>
-		{% else %}
-			<a href="{{ blog.href }}" class="sidebar-item sidebar-link">{{ blog.text }}</a>
-		{% endif -%}
-		</li>
-	{% endfor -%}
-	</ul>
 </div>

@@ -6,30 +6,24 @@
 	background: linear-gradient(#D3D3D3, #AAA);
 }
 
-.sidebar-category {
-	display: block;
-	font-size: 2.4rem;
-	font-weight: bold;
-	color: #A52A2A;
-	margin-top: 3rem;
-}
-
-li {
-	list-style-type: disc;
-	margin-left: 2rem;
-}
-
 .sidebar-item {
 	display: block;
 	margin-bottom: 2rem;
+	padding-left: 2rem;
 }
 
 .sidebar-link:hover {
-	color: #8B0000
+	color: #8B0000;
 }
 
 .sidebar-link:active {
-	color: #FF1493
+	color: #FF1493;
+}
+
+.sidebar-link:hover:before {
+	content: "-> ";
+	position: absolute;
+	left: 0;
 }
 
 .home-logo {
