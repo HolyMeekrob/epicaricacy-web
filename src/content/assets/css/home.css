@@ -1,4 +1,15 @@
-.greeter {
-	height: 400px;
-	width: auto;
+.syllables {
+	font-size: 8rem;
+}
+
+.definition {
+	font-size: 4rem;
+	text-align: left;
+}
+
+.left {
+	left: 5%;
+	float: left;
+	width: 40%;
+	margin-right: 10rem;
 }

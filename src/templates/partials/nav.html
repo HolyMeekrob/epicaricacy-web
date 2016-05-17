@@ -1,16 +1,19 @@
 {% set pages = [
-	{ 'href': '/fiction', 'id': 'fiction', 'text': 'Fiction' },
 	{ 'href': '/about', 'id': 'about', 'text': 'About' },
 	{ 'href': '/faq', 'id': 'faq', 'text': 'FAQ' },
+	{ 'href': '/fiction', 'id': 'fiction', 'text': 'Fiction' },
 	{ 'href': '/yfts', 'id': 'yfts', 'text': 'Your Favorite Thing Sucks' }
 ] -%}
 
 {% set activePage = activePage|default('home') -%}
 
 <div class="sticky">
-	<a href="/">
-		<img class="home-logo" src="/assets/images/nav/home.png" />
-	</a>
+	<div class="home">
+		<a href="/">
+			<img class="home-logo" src="/assets/images/nav/teardrop_e.png" />
+			<span class="home-text">picaricacy.com</span>
+		</a>
+	</div>
 	{% for page in pages %}
 		{% if activePage == page.id %}
 			<span class="sidebar-item">{{ page.text }}</span>

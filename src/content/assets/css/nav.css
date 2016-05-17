@@ -21,21 +21,41 @@
 }
 
 .sidebar-link:hover:before {
-	content: "-> ";
+	content: " ";
+	background-image: url("/assets/images/nav/teardrop.png");
+	background-size: 100%;
+	background-position: center;
+	width: 2rem;
+	height: 2rem;
 	position: absolute;
 	left: 0;
 }
 
+.home {
+	height: 50px;
+	margin-bottom: 20%;
+}
+
 .home-logo {
 	max-height: 50px;
-	max-width: 50px;
-	margin-bottom: 20%;
-	margin-left: 25%;
-	margin-right: 25%;
+	transition: top 1s;
+}
+
+.home-logo:hover {
+	position: relative;
+	top: 5px;
+}
+
+.home-text {
+	height: 50px;
+	vertical-align: text-bottom;
+}
+
+.home a {	
+	text-decoration: none;
 }
 
 .sticky {
 	position: sticky;
 	top: 2rem;
-	margin-top: 25vh;
 }

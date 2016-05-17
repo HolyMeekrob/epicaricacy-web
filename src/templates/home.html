@@ -4,20 +4,34 @@
 {% block head %}
 {{ super() }}
 	<link rel="stylesheet" href="/assets/css/home.css" />
+	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 {% endblock %}
 
 {% block content %}
 	<div class="center">
-		<h1>Vigo the Carpathian, the original epicaricacist, welcomes you.</h1>
-		<img class="vertical-space-medium greeter"src="/assets/images/home/vigo.jpg"
-			alt="Vigo the Carpathian" />
-	</div>
-
-	<div class="center vertical-space-medium">
-		<span>
-			This site is being continually updated.
-			Your impatience is like the buzzing of flies to Vigo.
-			Please check back soon.
-		</span>
+		<h1>Welcome to Epicaricacy.com<h1>
+		<h2>Because misery doesn't have to be a negative-sum game.</h2>
+		<div class="vertical-space-tall">
+			<div class="left">
+				<div class="syllables">
+					ep&middot;i&middot;car&middot;i&middot;ca&middot;cy
+				</div>
+				<ol class="definition">
+					<li>Rejoicing at or deriving pleasure from the misfortunes of others.</li>
+					<li>That's the only definition.</li>
+				</div>
+			</div>
+			<div>
+				<div>
+					My tweets are hilarious. Read them.
+				</div>
+				<div class="vertical-space-short">
+					<a class="twitter-timeline"  href="https://twitter.com/HolyMeekrob"
+						data-widget-id="730388413703028736"
+						data-chrome="transparent nofooter noheader">
+						Tweets by @HolyMeekrob</a>
+				</div>
+			</div>
+		</div>
 	</div>
 {% endblock %}
