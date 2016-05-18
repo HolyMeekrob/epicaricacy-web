@@ -87,3 +87,17 @@ h1 {
 .rss:hover {
 	background-size: 64px;
 }
+
+main:after {
+	content: "";
+	background: url("/assets/images/home/frenchman.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	opacity: 0.3;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	position: fixed;
+	z-index: -1;
+}

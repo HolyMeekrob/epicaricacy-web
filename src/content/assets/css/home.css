@@ -13,22 +13,3 @@
 	width: 40%;
 	margin-right: 10rem;
 }
-
-.homepage {
-	height: 100%;
-	width: 100%;
-}
-
-.homepage:after {
-	content: "";
-	background: url("/assets/images/home/frenchman.png");
-	background-position: center;
-	background-repeat: no-repeat;
-	opacity: 0.3;
-	top: 0;
-	left: 0;
-	bottom: 0;
-	right: 0;
-	position: absolute;
-	z-index: -1;
-}
