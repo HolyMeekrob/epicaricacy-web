@@ -1,15 +1,26 @@
 .syllables {
-	font-size: 8rem;
+	font-size: 6rem;
 }
 
 .definition {
-	font-size: 4rem;
+	font-size: 3rem;
 	text-align: left;
 }
 
+.homepage {
+	display: inline-flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
 .left {
-	left: 5%;
-	float: left;
-	width: 40%;
-	margin-right: 10rem;
+	order: 0;
+	flex-basis: 50%;
+}
+
+.right {
+	order: 1;
+	flex-basis: 50%;
 }
