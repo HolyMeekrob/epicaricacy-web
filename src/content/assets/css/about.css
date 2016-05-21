@@ -56,3 +56,6 @@ $imgDir: /assets/images/about;
 
 @mixin icon gr, goodreads {
 }
+
+@mixin icon ig, instagram {
+}
