@@ -8,6 +8,7 @@
 		"clean": "babel-node index clean",
 		"help": "babel-node index help",
 		"lint": "eslint ./**/*.js",
+		"release": "babel-node index release",
 		"start": "babel-node index buildAndServe",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
@@ -35,6 +36,7 @@
 		"metalsmith-postcss": "^4.0.0",
 		"metalsmith-serve": "0.0.7",
 		"metalsmith-transformer": "^2.0.0",
+		"moment": "^2.13.0",
 		"nunjucks": "^2.4.2",
 		"postcss-advanced-variables": "^1.2.2",
 		"postcss-extend": "^1.0.1",

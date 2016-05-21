@@ -14,6 +14,7 @@ import postcss from 'metalsmith-postcss';
 import serve from 'metalsmith-serve';
 import transformer from 'metalsmith-transformer';
 import nunjucks from 'nunjucks';
+import { releaseFiles } from './release';
 
 import collectionConfig from './config/collections';
 import cssConfig from './config/postcss';
@@ -90,10 +91,11 @@ const clean = () => {
 };
 
 const help = () => {
-	console.log('build:\t\tBuild source to output');
-	console.log('clean:\t\tClean output directory');
-	console.log('start:\t\tBuild source and start server');
-	console.log('help:\t\tOutput this help');
+	console.log('build:\t\t\tBuild source to output');
+	console.log('clean:\t\t\tClean output directory');
+	console.log('start:\t\t\tBuild source and start server');
+	console.log('release {filename}:\tRelease a draft for publication. Use \'all\' to publish all drafts.');
+	console.log('help:\t\t\tOutput this help');
 };
 
 const commandIndex = 2;
@@ -115,6 +117,26 @@ switch (process.argv[commandIndex]) {
 
 	case 'help':
 		help();
+		break;
+
+	case 'release':
+		if (process.argv.length === commandIndex + 1) {
+			console.log('Filename(s) required.');
+			break;
+		}
+
+		releaseFiles(process.argv.slice(commandIndex + 1).join(' '), `${__dirname}/src/content`)
+			.then((files) => {
+				const releasedFiles = files.filter((file) => file !== undefined);
+				if (releasedFiles.length === 0) {
+					console.log('No drafts found.');
+				}
+				else {
+					releasedFiles.forEach((file) => {
+						console.log(`${file} has been marked for publication`);
+					});
+				}
+			});
 		break;
 
 	default:
