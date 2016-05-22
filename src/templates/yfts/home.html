@@ -25,6 +25,9 @@
 						Keep reading about {{ post.moreText | default('it') }}...
 					</a>
 				</p>
+				<p class="comments-link">
+					<a href="{{ urlRoot + post.path }}#disqus_thread"></a>
+				</p>
 			</div>
 			{% endfor %}
 			{% if pagination.num > 1 %}
@@ -36,4 +39,5 @@
 				<a href="/{{ pagination.last.path | prettifyUrl }}">--></a>
 			{% endif %}
 	</div>
+	<script id="dsq-count-scr" src="//epicaricacy-web.disqus.com/count.js" async></script>
 {% endblock %}

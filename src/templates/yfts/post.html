@@ -3,6 +3,19 @@
 {% block head %}
 	{{ super() }}
 	<link rel="stylesheet" href="/assets/css/yfts.css" />
+	<script>
+		var disqus_config = function () {
+				this.page.url = '{{ urlRoot + path }}'
+				this.page.identifier = '{{ path }}';
+				this.page.title = 'YFTS - {{ title }}'
+		};
+		(function() {
+				var d = document, s = d.createElement('script');
+				s.src = '//epicaricacy-web.disqus.com/embed.js';
+				s.setAttribute('data-timestamp', +new Date());
+				(d.head || d.body).appendChild(s);
+		})();
+	</script>
 {% endblock %}
 
 {% block content %}
@@ -29,5 +42,6 @@
 			{% if next %}<a href="/{{next.path}}">Older</a>{% endif %}
 			{% if previous %}<a href="/{{previous.path}}">Newer</a>{% endif %}
 		</div>
+		<div id="disqus_thread"></div>
 	</div>
 {% endblock %}
