@@ -19,7 +19,6 @@ import { releaseFiles } from './release';
 import collectionConfig from './config/collections';
 import cssConfig from './config/postcss';
 import dateConfig from './config/dates';
-import excerptConfig from './config/excerpts';
 import layoutConfig from './config/layouts';
 import markdownConfig from './config/markdown';
 import serveConfig from './config/serve';
@@ -28,7 +27,12 @@ import paginationConfig from './config/pagination';
 import permalinkConfig from './config/permalinks';
 
 import feedGenerator from './config/feed';
-import { includeFile, options as transformerConfig } from './config/lineEndings';
+
+
+import { config as excerptConfig, addAnchorFiles, addAnchorConfig }
+	from './config/excerpts';
+import { includeFile as lineEndingsFiles, lineEndingsConfig }
+	from './config/lineEndings';
 
 import { cleanDir } from './clean';
 
@@ -71,6 +75,8 @@ const getBase = () =>
 		.use(markdown(markdownConfig))
 		.use(collections(collectionConfig))
 		.use(permalinks(permalinkConfig))
+		.use(branch(addAnchorFiles)
+			.use(transformer(addAnchorConfig)))
 		.use(excerpts(excerptConfig))
 		.use(feed(yftsFeedConfig))
 		.use(feed(fictionFeedConfig))
@@ -78,8 +84,8 @@ const getBase = () =>
 		.use(pageData(pageDataConfig))
 		.use(dateFormatter(dateConfig))
 		.use(layouts(layoutConfig))
-		.use(branch(includeFile)
-			.use(transformer(transformerConfig)))
+		.use(branch(lineEndingsFiles)
+			.use(transformer(lineEndingsConfig)))
 		.use(postcss(cssConfig))
 		.destination(outputDir);
 

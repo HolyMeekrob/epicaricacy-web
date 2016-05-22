@@ -7,6 +7,6 @@ export const includeFile = (filename, props, i) => // eslint-disable-line no-unu
 
 const lineEndingsTransformer = (str) => str.replace(/([^\r])\n/g, '$1\r\n');
 
-export const options = {
+export const lineEndingsConfig = {
 	transformer: lineEndingsTransformer
 };

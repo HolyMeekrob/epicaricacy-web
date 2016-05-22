@@ -20,7 +20,7 @@ const deleteFolderRecursive = (path) => {
 
 export const cleanDir = (baseDir) => {
 	try {
-		fs.statsSync(baseDir);
+		fs.statSync(baseDir);
 	}
 
 	catch (err) {
