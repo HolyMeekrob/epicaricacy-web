@@ -19,6 +19,16 @@ const deleteFolderRecursive = (path) => {
 };
 
 export const cleanDir = (baseDir) => {
+	try {
+		fs.statsSync(baseDir);
+	}
+
+	catch (err) {
+		// Directory doesn't exist
+		console.log(`${baseDir} does not exist.`);
+		return;
+	}
+
 	const getPath = (itemName) => `${baseDir}/${itemName}`;
 
 	const dirContents = fs.readdirSync(baseDir);

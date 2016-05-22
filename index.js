@@ -32,6 +32,8 @@ import { includeFile, options as transformerConfig } from './config/lineEndings'
 
 import { cleanDir } from './clean';
 
+const outputDir = './dist';
+
 const env = nunjucks.configure('src/templates', { watch: false, nocache: true });
 
 // Nunjucks filter to use the pretty url for any index.html addresses
@@ -79,14 +81,14 @@ const getBase = () =>
 		.use(branch(includeFile)
 			.use(transformer(transformerConfig)))
 		.use(postcss(cssConfig))
-		.destination('./dist');
+		.destination(outputDir);
 
 const build = () =>	addBuild(getBase());
 
 const buildAndServe =	() => addBuild(addServe(getBase()));
 
 const clean = () => {
-	cleanDir('./dist');
+	cleanDir(outputDir);
 	console.log('Clean complete');
 };
 
