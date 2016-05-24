@@ -1,6 +1,5 @@
 .greeting {
-	display: block;
-	width: 60%;
+	text-align: left;
 }
 
 .me {

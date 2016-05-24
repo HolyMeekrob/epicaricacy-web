@@ -8,12 +8,12 @@
 {% endblock %}
 
 {% block content %}
-	<div class="greeting">
+	<div class="center narrow vertical-space-tall">
 		<a href="https://www.youtube.com/watch?v=Q46l70mNmCw">
 			<img id="meImg" class="me" src="/assets/images/about/me_normal.jpg"
 				onmouseover="makeAngry()" onmouseout="makeNormal()" />
 		</a>
-		<h3>{{ contents | safe }}</h3>
+		<h3 class="greeting">{{ contents | safe }}</h3>
 		<div class="icons">
 			<a href="https://www.twitter.com/HolyMeekrob">
 				<div class="tw icon"></div>
