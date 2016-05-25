@@ -24,3 +24,14 @@
 	order: 1;
 	flex-basis: 50%;
 }
+
+.part-of-speech {
+	float: left;
+	font-style: italic;
+	font-size: 3rem;
+	padding-left: 3rem;
+}
+
+.pronunciation {
+	font-size: 3rem;
+}
