@@ -133,7 +133,12 @@
 		"no-use-before-define": [2],
 		"callback-return": [2],
 		"global-require": [2],
-		"handle-callback-err": [2]
+		"handle-callback-err": [2],
+		"no-useless-rename": [1],
+		"no-prototype-builtins": [2],
+		"no-unsafe-finally": [2],
+		"require-yield": [1],
+		"complexity": [2, 9]
 	},
 	"env": {
 		"es6": true,

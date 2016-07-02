@@ -18,9 +18,9 @@
 	"author": "Andy Steinberg",
 	"license": "UNLICENSED",
 	"devDependencies": {
-		"babel-cli": "^6.9.0",
-		"babel-plugin-transform-es2015-modules-commonjs": "^6.8.0",
-		"eslint": "^2.10.2",
+		"babel-cli": "^6.10.1",
+		"babel-plugin-transform-es2015-modules-commonjs": "^6.10.3",
+		"eslint": "^3.0.0",
 		"metalsmith": "^2.1.0",
 		"metalsmith-better-excerpts": "^0.1.7",
 		"metalsmith-branch": "0.0.4",
@@ -39,7 +39,7 @@
 		"moment": "^2.13.0",
 		"nunjucks": "^2.4.2",
 		"postcss-advanced-variables": "^1.2.2",
-		"postcss-extend": "^1.0.1",
-		"postcss-mixins": "^4.0.1"
+		"postcss-extend": "^1.0.4",
+		"postcss-mixins": "^4.0.2"
 	}
 }

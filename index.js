@@ -28,7 +28,6 @@ import permalinkConfig from './config/permalinks';
 
 import feedGenerator from './config/feed';
 
-
 import { config as excerptConfig, addAnchorFiles, addAnchorConfig }
 	from './config/excerpts';
 import { includeFile as lineEndingsFiles, lineEndingsConfig }
