@@ -1,9 +1,9 @@
 ---
 title: The Metric System
 moreText: how measurably bad the metric system is
-draft: true
+publishDate: 2016-07-10
 ---
-Despite the idiocy of humans, humanity itself continues to improve at most things. Technology, medicine, quality of life, access to information, productivity, and almost everything else we accomplish as a species is better now than it was before, and will be better in the future than it is now. However, sometimes we make mistakes and actually go backwards. For example, Apple's closed ecosystem in iOS is a regression from the the open development platform of previous operating systems. ISPs and mobile data providers removing unlimited plans is another example. And of course you have the topic of this text, a giant leap in the wrong direction made by nearly the entire world -- the metric system.
+Despite the idiocy of many humans, humanity itself continues to improve at most things. Technology, medicine, quality of life, access to information, productivity, and almost everything else we accomplish as a species is better now than it was before, and will be better in the future than it is now. However, sometimes we make mistakes and actually go backwards. Here I will cover a giant leap in the wrong direction made by nearly the entire world -- the metric system.
 
 To give you an indication of just how widespread this mistake was, according to [Wikipedia][metric wikipedia], the only countries that do not use the metric system as their primary system of measurement are the United States, Liberia, and Myanmar. That makes those three countries the three smartest in the world. There are many advocates in the United States for migrating to the metric system. Fortunately, common sense has thus far prevailed, and it remains a beacon of sanity in an insane world.
 
@@ -57,7 +57,7 @@ The metric system's conversions have nothing to do with practicality, and everyt
 
 ## Conclusion
 
-That the metric system is better than the US Imperial system is a commonly accepted argument that very few people apply any real analysis too. This is problematic because that argument, in nearly every context in which it is made, is wrong. The United States is correct in continuing to use the Imperial system, even before you factor in the cost inherent in making the switch.
+That the metric system is better than the US Imperial system is a commonly accepted argument that very few people apply any real analysis too. This is problematic because that argument, in nearly every context in which it is made, is wrong. Metric works well in a scientific setting, but in real life application it falls short. Its measurement values just aren't based on common use cases. The United States is correct in continuing to use the Imperial system, even before you factor in the cost inherent in making the switch.
 
 The metric system, as an every day system of measurement, sucks.
 
