@@ -1,4 +1,37 @@
-.greeter {
-	height: 400px;
-	width: auto;
+.syllables {
+	font-size: 6rem;
+}
+
+.definition {
+	font-size: 3rem;
+	text-align: left;
+}
+
+.homepage {
+	display: inline-flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.left {
+	order: 0;
+	flex-basis: 50%;
+}
+
+.right {
+	order: 1;
+	flex-basis: 50%;
+}
+
+.part-of-speech {
+	float: left;
+	font-style: italic;
+	font-size: 3rem;
+	padding-left: 3rem;
+}
+
+.pronunciation {
+	font-size: 3rem;
 }

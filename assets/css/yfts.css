@@ -59,3 +59,7 @@ blockquote cite {
 blockquote cite:before {
 	content: "-- ";
 }
+
+.comments-link {
+	text-align: right;
+}

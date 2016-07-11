@@ -1,6 +1,5 @@
 .greeting {
-	display: block;
-	width: 60%;
+	text-align: left;
 }
 
 .me {
@@ -88,4 +87,12 @@
 
 .gr:hover {
 	background-image: url("/assets/images/about/goodreads_lg.png");
+}
+
+.ig {
+	background-image: url("/assets/images/about/instagram_sm.png");
+}
+
+.ig:hover {
+	background-image: url("/assets/images/about/instagram_lg.png");
 }

@@ -1,42 +1,59 @@
 .sidebar {
-	background-color: #D3D3D3;
 	padding: 2rem;
 	border-right: 0.1rem solid #000000;
 	flex-basis: 15%;
-}
-
-.sidebar-category {
-	display: block;
-	font-size: 2.4rem;
-	font-weight: bold;
-	color: #A52A2A;
-	margin-top: 3rem;
-}
-
-li {
-	list-style-type: disc;
-	margin-left: 2rem;
+	background-color: #D3D3D3;
+	background: linear-gradient(#D3D3D3, #AAA);
 }
 
 .sidebar-item {
 	display: block;
 	margin-bottom: 2rem;
+	padding-left: 2rem;
 }
 
 .sidebar-link:hover {
-	color: #8B0000
+	color: #8B0000;
 }
 
 .sidebar-link:active {
-	color: #FF1493
+	color: #FF1493;
+}
+
+.sidebar-link:hover:before {
+	content: " ";
+	background-image: url("/assets/images/nav/teardrop.png");
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 1rem;
+	height: 3rem;
+	position: absolute;
+	left: 0;
+}
+
+.home {
+	height: 50px;
+	margin-bottom: 20%;
 }
 
 .home-logo {
 	max-height: 50px;
-	max-width: 50px;
-	margin-bottom: 20%;
-	margin-left: 25%;
-	margin-right: 25%;
+	transition: top 1s;
+}
+
+.home-logo:hover {
+	position: relative;
+	top: 5px;
+}
+
+.home-text {
+	height: 50px;
+	vertical-align: text-bottom;
+}
+
+.home a {	
+	text-decoration: none;
 }
 
 .sticky {

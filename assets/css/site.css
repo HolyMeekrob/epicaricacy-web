@@ -6,7 +6,7 @@ body {
 	margin: 0;
 	font-family: "Comic Sans MS", "Comic Sans", "Short Stack", sans-serif;
 	font-size: 2rem;
-	background-color: #ADD8E6;
+	background-color: #A2BDF2;
 }
 
 h1 {
@@ -52,6 +52,10 @@ h1 {
 	margin-right: auto;
 }
 
+.vertical-space-short {
+	margin-top: 2rem;
+}
+
 .vertical-space-medium {
 	margin-top: 5rem;
 }
@@ -60,8 +64,14 @@ h1 {
 	margin-top: 10rem;
 }
 
+.narrow, .narrow-page {
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
 .narrow-page {
-	margin: 8vw 10%;
+	margin-top: 8vh;
+	margin-bottom: 8vh;
 	padding-left: 5rem;
 	padding-right: 5rem;
 	padding-top: 8rem;
@@ -69,11 +79,31 @@ h1 {
 }
 
 .rss {
-	height: 50px;
-	width: 50px;
+	height: 64px;
+	width: 64px;
 	position: fixed;
 	right: 5%;
 	top: 5%;
 	background-image: url('/assets/images/rss.png');
-	background-size: contain;
+	background-size: 50px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.rss:hover {
+	background-size: 64px;
+}
+
+main:after {
+	content: "";
+	background: url("/assets/images/home/frenchman.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	opacity: 0.3;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	position: fixed;
+	z-index: -1;
 }

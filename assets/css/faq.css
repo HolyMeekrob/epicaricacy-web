@@ -1,4 +1,10 @@
-.answer {
+dt {
+	font-size: 3rem;
+	font-weight: bold;
+	margin: 2rem 0;
+}
+
+dd {
 	display: block;
 	padding-left: 5rem;
 	padding-right: 5rem;
